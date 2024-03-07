@@ -4,6 +4,8 @@ const httpStatus = require('http-status')
 
 const createUser = async(body) =>{
     console.log(body)
+    const user = await getUserByPhoneNumber(body.telephone);
+    if(user) throw new ApiError(httpStatus.BAD_REQUEST, "Ce numéro de téléphone existe déjà !!!")
     return await User.create(body)
 }
 
@@ -28,10 +30,21 @@ const getUserByEmail = async (email) => {
     return user;
 };
 
+const updateUserById = async (userId, updateBody) => {
+    console.log(updateBody);
+    const user = await getUserById(userId);
+    if (updateBody.telephone && (await User.isNumberTaken(updateBody.telephone, userId))) {
+        throw new ApiError(httpStatus.BAD_REQUEST, 'Ce numéro existe déjà !!!');
+    }
+    await user.update(updateBody);
+    return user;
+};
+
 module.exports = {
     createUser,
     getUserById,
     getAllUser,
     getUserByPhoneNumber,
-    getUserByEmail
+    getUserByEmail,
+    updateUserById
 }

@@ -224,3 +224,91 @@
 2024-03-05T22:21:14.056Z info: Le serveur tourne sur le port 4000
 2024-03-05T22:21:14.056Z info: Connexion à la base de donnée réussie
 2024-03-05T22:21:14.056Z error: GET /user/1 401 - 651.094 ms - message: -
+2024-03-07T11:50:06.362Z info: Le serveur tourne sur le port 4000
+2024-03-07T11:50:06.362Z error: POST /auth/login 500 - 16.221 ms - message: -
+2024-03-07T11:53:17.738Z info: Le serveur tourne sur le port 4000
+2024-03-07T11:53:17.738Z info: Connexion à la base de donnée réussie
+2024-03-07T11:53:17.738Z info: POST /user/create 200 - 180.055 ms
+2024-03-07T11:53:17.738Z info: POST /auth/login 200 - 148.185 ms
+2024-03-07T11:53:17.738Z info: POST /auth/login 200 - 155.875 ms
+2024-03-07T11:53:17.738Z error: GET /user/1 401 - 14.052 ms - message: -
+2024-03-07T11:53:17.738Z error: GET /user/1 401 - 4.535 ms - message: -
+2024-03-07T12:03:23.912Z info: Le serveur tourne sur le port 4000
+2024-03-07T12:03:23.912Z info: Connexion à la base de donnée réussie
+2024-03-07T12:03:23.912Z info: GET /user/1 200 - 39.778 ms
+2024-03-07T12:03:23.912Z info: GET /user/1 304 - 21.607 ms
+2024-03-07T12:29:26.968Z info: Le serveur tourne sur le port 4000
+2024-03-07T12:29:26.968Z info: Connexion à la base de donnée réussie
+2024-03-07T12:39:26.716Z info: Le serveur tourne sur le port 4000
+2024-03-07T12:39:26.716Z info: Connexion à la base de donnée réussie
+2024-03-07T12:43:21.912Z info: Le serveur tourne sur le port 4000
+2024-03-07T12:43:21.912Z info: Connexion à la base de donnée réussie
+2024-03-07T12:44:42.598Z info: Le serveur tourne sur le port 4000
+2024-03-07T12:44:42.598Z info: Connexion à la base de donnée réussie
+2024-03-07T12:55:55.583Z info: Le serveur tourne sur le port 4000
+2024-03-07T12:55:55.583Z info: Connexion à la base de donnée réussie
+2024-03-07T13:00:07.410Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:00:07.410Z info: Connexion à la base de donnée réussie
+2024-03-07T13:01:49.435Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:01:49.435Z info: Connexion à la base de donnée réussie
+2024-03-07T13:01:49.435Z error: POST /user/create 500 - 11.019 ms - message: -
+2024-03-07T13:05:17.803Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:05:17.803Z info: Connexion à la base de donnée réussie
+2024-03-07T13:05:17.803Z error: POST /user/create 500 - 9.495 ms - message: -
+2024-03-07T13:06:57.083Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:06:57.083Z info: Connexion à la base de donnée réussie
+2024-03-07T13:06:57.083Z error: POST /user/create 500 - 21.817 ms - message: -
+2024-03-07T13:06:57.083Z error: POST /user/create 500 - 16.943 ms - message: -
+2024-03-07T13:10:28.984Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:10:28.984Z info: Connexion à la base de donnée réussie
+2024-03-07T13:10:28.984Z error: POST /user/create 500 - 39.252 ms - message: -
+2024-03-07T13:12:39.673Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:12:39.673Z info: Connexion à la base de donnée réussie
+2024-03-07T13:12:39.673Z error: POST /user/create 500 - 21.892 ms - message: -
+2024-03-07T13:14:45.913Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:14:45.913Z info: Connexion à la base de donnée réussie
+2024-03-07T13:14:45.913Z error: POST /user/create 500 - 25.410 ms - message: -
+2024-03-07T13:15:38.713Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:15:38.713Z info: Connexion à la base de donnée réussie
+2024-03-07T13:15:38.713Z error: POST /user/create 500 - 24.853 ms - message: -
+2024-03-07T13:16:09.896Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:16:09.896Z info: Connexion à la base de donnée réussie
+2024-03-07T13:16:09.896Z error: POST /user/create 500 - 25.700 ms - message: -
+2024-03-07T13:19:06.202Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:19:06.202Z info: Connexion à la base de donnée réussie
+2024-03-07T13:19:06.202Z error: POST /user/create 500 - 8.392 ms - message: -
+2024-03-07T13:24:15.343Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:24:15.343Z info: Connexion à la base de donnée réussie
+2024-03-07T13:24:15.343Z error: POST /user/create 500 - 25.894 ms - message: -
+2024-03-07T13:24:15.343Z error: POST /user/create 500 - 19.723 ms - message: -
+2024-03-07T13:28:16.582Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:28:16.582Z info: Connexion à la base de donnée réussie
+2024-03-07T13:28:16.582Z error: POST /user/create 500 - 25.201 ms - message: -
+2024-03-07T13:28:54.418Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:28:54.418Z info: Connexion à la base de donnée réussie
+2024-03-07T13:28:54.418Z error: POST /user/create 500 - 22.367 ms - message: -
+2024-03-07T13:31:51.978Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:31:51.978Z info: Connexion à la base de donnée réussie
+2024-03-07T13:31:51.978Z error: POST /user/create 500 - 33.330 ms - message: -
+2024-03-07T13:32:46.821Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:32:46.821Z info: Connexion à la base de donnée réussie
+2024-03-07T13:32:46.821Z error: POST /user/create 500 - 40.799 ms - message: -
+2024-03-07T13:33:41.692Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:33:41.692Z info: Connexion à la base de donnée réussie
+2024-03-07T13:34:03.902Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:34:03.902Z info: Connexion à la base de donnée réussie
+2024-03-07T13:34:03.902Z info: POST /user/create 200 - 237.839 ms
+2024-03-07T13:34:03.902Z error: POST /user/create 400 - 17.270 ms - message: -
+2024-03-07T13:34:03.902Z error: POST /user/create 500 - 165.246 ms - message: -
+2024-03-07T13:39:36.152Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:39:36.152Z info: Connexion à la base de donnée réussie
+2024-03-07T13:39:57.915Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:39:57.915Z info: Connexion à la base de donnée réussie
+2024-03-07T13:39:57.915Z error: PATCH /user/1 500 - 37.308 ms - message: -
+2024-03-07T13:41:50.993Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:41:50.993Z info: Connexion à la base de donnée réussie
+2024-03-07T13:41:50.993Z info: PATCH /user/1 200 - 31.254 ms
+2024-03-07T13:42:32.614Z info: Le serveur tourne sur le port 4000
+2024-03-07T13:42:32.614Z info: Connexion à la base de donnée réussie
+2024-03-07T13:42:32.614Z info: PATCH /user/1 200 - 48.235 ms
+2024-03-07T13:42:32.614Z error: PATCH /user/1 400 - 22.244 ms - message: -
