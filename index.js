@@ -52,7 +52,7 @@ sequelize.sync({ force: false })
 app.use('/', routes);
 
 app.get('/', (req, res) => {
-  res.json({message: "Bienvenue sur l'API de SEQUELIZE"})
+  res.json({message: "Bienvenue sur l'API de COLITURAGE"})
 })
 
 app.listen(config.port, () => {
