@@ -314,3 +314,13 @@
 2024-03-07T13:42:32.614Z error: PATCH /user/1 400 - 22.244 ms - message: -
 2024-03-08T10:16:38.511Z info: Le serveur tourne sur le port 4000
 2024-03-08T10:16:38.511Z info: Connexion à la base de donnée réussie
+2024-03-14T13:22:12.542Z info: Le serveur tourne sur le port 4000
+2024-03-14T13:24:52.586Z info: Le serveur tourne sur le port 4000
+2024-03-14T14:09:15.742Z info: Le serveur tourne sur le port 4000
+2024-03-14T14:09:15.742Z info: Connexion à la base de donnée réussie
+2024-03-14T14:10:55.899Z info: Le serveur tourne sur le port 4000
+2024-03-14T14:10:55.899Z info: Connexion à la base de donnée réussie
+2024-03-14T14:15:34.737Z info: Le serveur tourne sur le port 4000
+2024-03-14T14:15:34.737Z info: Connexion à la base de donnée réussie
+2024-03-14T14:17:13.755Z info: Le serveur tourne sur le port 4000
+2024-03-14T14:17:13.755Z info: Connexion à la base de donnée réussie
