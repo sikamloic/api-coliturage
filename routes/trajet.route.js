@@ -6,7 +6,7 @@ const auth = require('../middlewares/auth');
 router.post('/create', trajetController.createTrajet);
 router.route('/:id')
     .get(trajetController.getTrajetById)
-    .delete(colisController.deleteColis)
+    .delete(trajetController.deleteTrajet)
 router.get('/statut/:userId', trajetController.getTrajetByUserIdAndStatut);
 router.get('/statut', trajetController.getTrajetByStatut);
 router.get('/', trajetController.getTrajetByStatut)

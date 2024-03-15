@@ -2,7 +2,9 @@ const express = require('express');
 const config = require('../config/config');
 const authRoute = require('./auth.route');
 const userRoute = require('./user.route');
-const colisRoute = require('./colis.route')
+const colisRoute = require('./colis.route');
+const trajetRoute = require('./trajet.route');
+const propostionRoute = require('./proposition.route');
 
 const router = express.Router();
 
@@ -18,6 +20,14 @@ const defaultRoutes = [
   {
     path: '/colis',
     route: colisRoute
+  },
+  {
+    path: '/trajet',
+    route: trajetRoute
+  },
+  {
+    path: '/proposition',
+    route: propostionRoute
   }
 ];
 

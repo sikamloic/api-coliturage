@@ -1,7 +1,9 @@
-const { DataTypes } = require('sequelize');
-const sequelize = require('../config/sequelize');
-const Trajet = require('./trajets');
+const { DataTypes, Op} = require('sequelize');
+const sequelize = require('../config/sequilize')
+const Trajet = require('./trajet');
 const Colis = require('./colis');
+const ApiError = require('../utils/apiError')
+const httpStatus = require('http-status')
 
 const Proposition = sequelize.define('Proposition', {
     id: {
@@ -15,7 +17,7 @@ const Proposition = sequelize.define('Proposition', {
     },
     statut: {
         type: DataTypes.STRING,
-        allowNull: false
+        defaultValue: false
     },
     type: {
         type: DataTypes.ENUM('trajet', 'colis'),
@@ -24,35 +26,6 @@ const Proposition = sequelize.define('Proposition', {
     date: {
         type: DataTypes.DATE,
         defaultValue: DataTypes.NOW
-    }
-}, {
-    validate: {
-        async checkUserId() {
-            if (this.type === 'trajet') {
-                const trajet = await Trajet.findByPk(this.trajetId);
-                if (trajet && trajet.userId === this.userId) {
-                    throw new Error('Le trajet ne peut pas appartenir au même utilisateur que la proposition.');
-                }
-            } else if (this.type === 'colis') {
-                const colis = await Colis.findByPk(this.colisId);
-                if (colis && colis.userId === this.userId) {
-                    throw new Error('Le colis ne peut pas appartenir au même utilisateur que la proposition.');
-                }
-            }
-        },
-        async checkDuplicate() {
-            const existingProposition = await Proposition.findOne({
-                where: {
-                    [sequelize.Op.or]: [
-                        { type: this.type, trajetId: this.trajetId },
-                        { type: this.type, colisId: this.colisId }
-                    ]
-                }
-            });
-            if (existingProposition) {
-                throw new Error('Cette proposition existe déjà.');
-            }
-        }
     }
 });
 

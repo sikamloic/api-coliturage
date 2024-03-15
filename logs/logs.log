@@ -702,3 +702,80 @@
 2024-03-15T18:19:52.796Z info: Le serveur tourne sur le port 4000
 2024-03-15T18:19:52.796Z info: Connexion à la base de donnée réussie
 2024-03-15T18:19:52.796Z info: Connected to email server
+2024-03-15T18:23:08.366Z info: Le serveur tourne sur le port 4000
+2024-03-15T18:23:08.366Z info: Connexion à la base de donnée réussie
+2024-03-15T18:23:08.366Z info: Connected to email server
+2024-03-15T18:29:42.416Z info: Le serveur tourne sur le port 4000
+2024-03-15T18:29:42.416Z info: Connexion à la base de donnée réussie
+2024-03-15T18:29:42.416Z info: Connected to email server
+2024-03-15T18:29:42.416Z error: ::1 - POST /trajet/create 400 - 34.056 ms - message: -
+2024-03-15T18:30:37.474Z info: Le serveur tourne sur le port 4000
+2024-03-15T18:30:37.474Z info: Connexion à la base de donnée réussie
+2024-03-15T18:30:37.474Z info: Connected to email server
+2024-03-15T18:31:27.524Z info: Le serveur tourne sur le port 4000
+2024-03-15T18:31:27.524Z info: Connexion à la base de donnée réussie
+2024-03-15T18:31:27.524Z info: Connected to email server
+2024-03-15T18:31:27.524Z info: ::1 - POST /trajet/create 200 - 57.381 ms
+2024-03-15T18:49:06.258Z info: Le serveur tourne sur le port 4000
+2024-03-15T18:49:06.258Z info: Connexion à la base de donnée réussie
+2024-03-15T18:49:06.258Z info: Connected to email server
+2024-03-15T18:50:22.699Z info: Le serveur tourne sur le port 4000
+2024-03-15T18:50:22.699Z info: Connexion à la base de donnée réussie
+2024-03-15T18:50:22.699Z info: Connected to email server
+2024-03-15T18:50:35.187Z info: Le serveur tourne sur le port 4000
+2024-03-15T18:50:35.187Z info: Connexion à la base de donnée réussie
+2024-03-15T18:50:35.187Z info: Connected to email server
+2024-03-15T18:50:56.366Z info: Le serveur tourne sur le port 4000
+2024-03-15T18:50:56.366Z info: Connexion à la base de donnée réussie
+2024-03-15T18:50:56.366Z info: Connected to email server
+2024-03-15T18:52:29.746Z info: Le serveur tourne sur le port 4000
+2024-03-15T18:52:29.746Z info: Connexion à la base de donnée réussie
+2024-03-15T18:52:29.746Z info: Connected to email server
+2024-03-15T18:52:50.510Z info: Le serveur tourne sur le port 4000
+2024-03-15T18:52:50.510Z info: Connexion à la base de donnée réussie
+2024-03-15T18:52:50.510Z info: Connected to email server
+2024-03-15T18:53:58.520Z info: Le serveur tourne sur le port 4000
+2024-03-15T18:53:58.520Z info: Connexion à la base de donnée réussie
+2024-03-15T18:53:58.520Z info: Connected to email server
+2024-03-15T18:54:37.792Z info: Le serveur tourne sur le port 4000
+2024-03-15T18:54:37.792Z info: Connexion à la base de donnée réussie
+2024-03-15T18:54:37.792Z info: Connected to email server
+2024-03-15T18:55:43.543Z info: Le serveur tourne sur le port 4000
+2024-03-15T18:55:43.543Z info: Connexion à la base de donnée réussie
+2024-03-15T18:55:43.543Z info: Connected to email server
+2024-03-15T18:55:43.543Z error: ::1 - POST /proposition/create 400 - 14.931 ms - message: -
+2024-03-15T18:58:50.869Z info: Le serveur tourne sur le port 4000
+2024-03-15T18:58:50.869Z info: Connexion à la base de donnée réussie
+2024-03-15T18:58:50.869Z info: Connected to email server
+2024-03-15T18:59:23.486Z info: Le serveur tourne sur le port 4000
+2024-03-15T18:59:23.486Z info: Connexion à la base de donnée réussie
+2024-03-15T18:59:23.486Z info: Connected to email server
+2024-03-15T19:00:08.598Z info: Le serveur tourne sur le port 4000
+2024-03-15T19:00:08.598Z info: Connexion à la base de donnée réussie
+2024-03-15T19:00:08.598Z info: Connected to email server
+2024-03-15T19:00:08.598Z error: ::1 - POST /proposition/create 400 - 16.040 ms - message: -
+2024-03-15T19:01:05.693Z info: Le serveur tourne sur le port 4000
+2024-03-15T19:01:05.693Z info: Connexion à la base de donnée réussie
+2024-03-15T19:01:05.693Z info: Connected to email server
+2024-03-15T19:01:05.693Z error: ::1 - POST /proposition/create 400 - 13.556 ms - message: -
+2024-03-15T19:01:05.693Z error: ::1 - POST /proposition/create 400 - 32.078 ms - message: -
+2024-03-15T19:01:05.693Z error: ::1 - POST /proposition/create 400 - 20.314 ms - message: -
+2024-03-15T19:03:32.605Z info: Le serveur tourne sur le port 4000
+2024-03-15T19:03:32.605Z info: Connexion à la base de donnée réussie
+2024-03-15T19:03:32.605Z info: Connected to email server
+2024-03-15T19:03:46.075Z info: Le serveur tourne sur le port 4000
+2024-03-15T19:03:46.075Z info: Connexion à la base de donnée réussie
+2024-03-15T19:03:46.075Z info: Connected to email server
+2024-03-15T19:03:46.075Z error: ::1 - POST /proposition/create 400 - 32.121 ms - message: -
+2024-03-15T19:05:10.628Z info: Le serveur tourne sur le port 4000
+2024-03-15T19:05:10.628Z info: Connexion à la base de donnée réussie
+2024-03-15T19:05:10.628Z info: Connected to email server
+2024-03-15T19:05:10.628Z info: ::1 - POST /proposition/create 200 - 77.593 ms
+2024-03-15T19:08:15.211Z info: Le serveur tourne sur le port 4000
+2024-03-15T19:08:15.211Z info: Connexion à la base de donnée réussie
+2024-03-15T19:08:15.211Z info: Connected to email server
+2024-03-15T19:17:13.190Z info: Le serveur tourne sur le port 4000
+2024-03-15T19:17:13.190Z info: Connexion à la base de donnée réussie
+2024-03-15T19:17:13.190Z info: Connected to email server
+2024-03-15T19:17:13.190Z error: ::1 - POST /proposition/create 400 - 39.327 ms - message: -
+2024-03-15T19:17:13.190Z error: ::1 - POST /proposition/create 400 - 18.441 ms - message: -
