@@ -4,46 +4,54 @@ const sequelize = require('../config/sequilize');
 const User = require('./user');
 
 const Colis = sequelize.define('Colis', {
-  ColisID: {
+  id: {
     type: DataTypes.INTEGER,
     primaryKey: true,
     autoIncrement: true
   },
-  Poids: {
+  nom: {
+    type: DataTypes.STRING,
+    allowNull: false
+  },
+  poids: {
     type: DataTypes.FLOAT,
     allowNull: false
   },
-  Dimensions: {
+  taille: {
     type: DataTypes.STRING,
     allowNull: false
   },
-  Description: {
+  description: {
+    type: DataTypes.STRING,
+    allowNull: true
+  },
+  depart: {
     type: DataTypes.STRING,
     allowNull: false
   },
-  LieuDepart: {
+  arrivee: {
     type: DataTypes.STRING,
     allowNull: false
   },
-  LieuArrivee: {
-    type: DataTypes.STRING,
-    allowNull: false
-  },
-  DateLimiteLivraison: {
-    type: DataTypes.DATE,
-    allowNull: false
-  },
-  Date: {
+  dateLimite: {
     type: DataTypes.DATE,
     allowNull: true
   },
-  Status: {
-    type: DataTypes.BOOLEAN,
+  date: {
+    type: DataTypes.DATE,
+    defaultValue: DataTypes.NOW
+  },
+  statut: {
+    type: DataTypes.ENUM('en attente', 'en cours', 'termine'),
+    defaultValue: 'en attente'
+  },
+  photo: {
+    type: DataTypes.BLOB,
     allowNull: true
   }
 });
 
-User.hasMany(Colis, { foreignKey: 'UserID' });
-Colis.belongsTo(User, { foreignKey: 'UserID' });
+User.hasMany(Colis, { foreignKey: 'userId' });
+Colis.belongsTo(User, { foreignKey: 'userId' });
 
 module.exports = Colis;

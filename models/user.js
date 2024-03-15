@@ -16,7 +16,7 @@ const User = sequelize.define('User', {
   },
   prenom: {
     type: DataTypes.STRING,
-    allowNull: false,
+    allowNull: true,
   },
   email: {
     type: DataTypes.STRING,
@@ -29,7 +29,8 @@ const User = sequelize.define('User', {
   },
   telephone: {
     type: DataTypes.STRING,
-    allowNull: false
+    allowNull: false,
+    unique: true
   },
   role: {
     type: DataTypes.STRING,

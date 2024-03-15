@@ -324,3 +324,381 @@
 2024-03-14T14:15:34.737Z info: Connexion à la base de donnée réussie
 2024-03-14T14:17:13.755Z info: Le serveur tourne sur le port 4000
 2024-03-14T14:17:13.755Z info: Connexion à la base de donnée réussie
+2024-03-15T12:09:06.919Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:09:06.919Z info: Connexion à la base de donnée réussie
+2024-03-15T12:09:06.919Z error: POST /user/create 500 - 45.670 ms - message: -
+2024-03-15T12:14:45.870Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:14:45.870Z info: Connexion à la base de donnée réussie
+2024-03-15T12:15:06.925Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:15:06.925Z info: Connexion à la base de donnée réussie
+2024-03-15T12:15:06.925Z info: POST /user/create 200 - 277.094 ms
+2024-03-15T12:18:59.192Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:18:59.192Z info: Connexion à la base de donnée réussie
+2024-03-15T12:18:59.192Z error: GET /colis/create 500 - 18.692 ms - message: -
+2024-03-15T12:20:38.177Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:20:38.177Z info: Connexion à la base de donnée réussie
+2024-03-15T12:20:38.177Z error: GET /colis/create 500 - 14.233 ms - message: -
+2024-03-15T12:20:38.177Z error: POST /colis/create 500 - 32.458 ms - message: -
+2024-03-15T12:20:38.177Z error: POST /colis/create 500 - 30.489 ms - message: -
+2024-03-15T12:26:32.499Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:26:32.499Z info: Connexion à la base de donnée réussie
+2024-03-15T12:26:32.499Z error: POST /colis/create 500 - 53.347 ms - message: -
+2024-03-15T12:28:38.733Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:28:38.733Z info: Connexion à la base de donnée réussie
+2024-03-15T12:28:38.733Z info: POST /colis/create 200 - 106.276 ms
+2024-03-15T12:30:35.747Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:30:35.747Z info: Connexion à la base de donnée réussie
+2024-03-15T12:31:17.029Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:31:17.029Z info: Connexion à la base de donnée réussie
+2024-03-15T12:31:23.295Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:31:23.295Z info: Connexion à la base de donnée réussie
+2024-03-15T12:31:23.295Z info: POST /colis/create 200 - 54.012 ms
+2024-03-15T12:31:23.295Z error: POST /colis/create 400 - 21.376 ms - message: -
+2024-03-15T12:31:23.295Z error: GET /colis 404 - 3.166 ms - message: -
+2024-03-15T12:34:14.320Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:34:14.320Z info: Connexion à la base de donnée réussie
+2024-03-15T12:34:14.320Z error: GET /colis 500 - 8.252 ms - message: -
+2024-03-15T12:34:45.557Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:34:45.557Z info: Connexion à la base de donnée réussie
+2024-03-15T12:34:45.557Z info: GET /colis 200 - 35.004 ms
+2024-03-15T12:40:14.672Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:40:14.672Z info: Connexion à la base de donnée réussie
+2024-03-15T12:40:38.892Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:40:38.892Z info: Connexion à la base de donnée réussie
+2024-03-15T12:41:51.004Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:41:51.004Z info: Connexion à la base de donnée réussie
+2024-03-15T12:41:51.004Z info: GET /colis 200 - 30.763 ms
+2024-03-15T12:42:11.171Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:42:11.171Z info: Connexion à la base de donnée réussie
+2024-03-15T12:42:11.171Z info: GET /colis 200 - 29.912 ms
+2024-03-15T12:44:15.474Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:44:15.474Z info: Connexion à la base de donnée réussie
+2024-03-15T12:44:15.474Z error: GET /colis/statut/1?statut=en%20attente 500 - 5.409 ms - message: -
+2024-03-15T12:46:53.547Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:46:53.547Z info: Connexion à la base de donnée réussie
+2024-03-15T12:46:53.547Z error: GET /colis/statut/1?statut=en%20attente 400 - 17.473 ms - message: -
+2024-03-15T12:46:53.547Z error: GET /colis/statut/1?statut=%22en%20attente%22 400 - 4.679 ms - message: -
+2024-03-15T12:49:06.650Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:49:06.650Z info: Connexion à la base de donnée réussie
+2024-03-15T12:49:06.650Z error: GET /colis/statut/1?statut=%22en%20attente%22 400 - 26.212 ms - message: -
+2024-03-15T12:49:35.480Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:49:35.480Z info: Connexion à la base de donnée réussie
+2024-03-15T12:49:35.480Z info: GET /colis/statut/1?statut=%22en%20attente%22 200 - 34.351 ms
+2024-03-15T12:49:35.480Z info: GET /colis/statut/1?statut=en%20attente 200 - 25.195 ms
+2024-03-15T12:50:55.008Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:50:55.008Z info: Connexion à la base de donnée réussie
+2024-03-15T12:50:55.008Z info: GET /colis/statut/1?statut=en%20attente 200 - 35.653 ms
+2024-03-15T12:52:56.314Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:52:56.314Z info: Connexion à la base de donnée réussie
+2024-03-15T12:57:04.629Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:57:04.629Z info: Connexion à la base de donnée réussie
+2024-03-15T12:58:45.698Z info: Le serveur tourne sur le port 4000
+2024-03-15T12:58:45.698Z info: Connexion à la base de donnée réussie
+2024-03-15T13:00:57.683Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:00:57.683Z info: Connexion à la base de donnée réussie
+2024-03-15T13:01:08.132Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:01:08.132Z info: Connexion à la base de donnée réussie
+2024-03-15T13:02:03.118Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:02:03.118Z info: Connexion à la base de donnée réussie
+2024-03-15T13:02:03.118Z error: POST /colis/create 500 - 1637.434 ms - message: -
+2024-03-15T13:03:23.507Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:03:23.507Z info: Connexion à la base de donnée réussie
+2024-03-15T13:03:23.507Z warn: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+2024-03-15T13:05:30.967Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:05:30.967Z info: Connexion à la base de donnée réussie
+2024-03-15T13:05:30.967Z warn: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+2024-03-15T13:07:32.580Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:07:32.580Z info: Connexion à la base de donnée réussie
+2024-03-15T13:07:32.580Z warn: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+2024-03-15T13:11:01.845Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:11:01.845Z info: Connexion à la base de donnée réussie
+2024-03-15T13:11:01.845Z warn: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+2024-03-15T13:11:33.716Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:11:33.716Z info: Connexion à la base de donnée réussie
+2024-03-15T13:11:33.716Z warn: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+2024-03-15T13:11:43.399Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:11:43.399Z info: Connexion à la base de donnée réussie
+2024-03-15T13:11:43.399Z warn: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+2024-03-15T13:17:42.076Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:17:42.076Z info: Connexion à la base de donnée réussie
+2024-03-15T13:17:42.076Z warn: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+2024-03-15T13:20:17.558Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:20:17.558Z info: Connexion à la base de donnée réussie
+2024-03-15T13:20:17.558Z warn: Unable to connect to email server. Make sure you have configured the SMTP options in .env
+2024-03-15T13:25:59.278Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:25:59.278Z info: Connexion à la base de donnée réussie
+2024-03-15T13:25:59.278Z warn: Error: Invalid login: 535 Authentication credentials invalid
+    at SMTPConnection._formatError (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:1564:34)
+    at SMTPConnection.<anonymous> (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:969:20)
+    at SMTPConnection._onData (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at SMTPConnection._onSocketData (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+    at Readable.push (node:internal/streams/readable:375:5)
+2024-03-15T13:28:01.304Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:28:01.304Z info: Connexion à la base de donnée réussie
+2024-03-15T13:28:01.304Z warn: Error: Connection closed
+    at SMTPConnection.<anonymous> (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-transport\index.js:355:33)
+    at Object.onceWrapper (node:events:628:28)
+    at SMTPConnection.emit (node:events:514:28)
+    at SMTPConnection._destroy (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:880:14)
+    at SMTPConnection._onClose (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:849:14)
+    at SMTPConnection._onSocketClose (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:195:42)
+    at Object.onceWrapper (node:events:629:26)
+    at Socket.emit (node:events:514:28)
+    at TCP.<anonymous> (node:net:337:12)
+2024-03-15T13:28:47.081Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:28:47.081Z info: Connexion à la base de donnée réussie
+2024-03-15T13:28:47.081Z warn: Error: Invalid login: 535 Authentication credentials invalid
+    at SMTPConnection._formatError (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:1564:34)
+    at SMTPConnection.<anonymous> (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:969:20)
+    at SMTPConnection._onData (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at SMTPConnection._onSocketData (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+    at Readable.push (node:internal/streams/readable:375:5)
+2024-03-15T13:29:28.407Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:29:28.407Z info: Connexion à la base de donnée réussie
+2024-03-15T13:29:28.407Z warn: Error: Connection closed
+    at SMTPConnection.<anonymous> (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-transport\index.js:355:33)
+    at Object.onceWrapper (node:events:628:28)
+    at SMTPConnection.emit (node:events:514:28)
+    at SMTPConnection._destroy (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:880:14)
+    at SMTPConnection._onClose (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:849:14)
+    at SMTPConnection._onSocketClose (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:195:42)
+    at Object.onceWrapper (node:events:629:26)
+    at Socket.emit (node:events:514:28)
+    at TCP.<anonymous> (node:net:337:12)
+2024-03-15T13:31:48.558Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:31:48.558Z info: Connexion à la base de donnée réussie
+2024-03-15T13:31:48.558Z warn: Error: Connection closed
+    at SMTPConnection.<anonymous> (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-transport\index.js:355:33)
+    at Object.onceWrapper (node:events:628:28)
+    at SMTPConnection.emit (node:events:514:28)
+    at SMTPConnection._destroy (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:880:14)
+    at SMTPConnection._onClose (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:849:14)
+    at SMTPConnection._onSocketClose (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:195:42)
+    at Object.onceWrapper (node:events:629:26)
+    at Socket.emit (node:events:514:28)
+    at TCP.<anonymous> (node:net:337:12)
+2024-03-15T13:38:26.937Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:38:26.937Z info: Connexion à la base de donnée réussie
+2024-03-15T13:38:26.937Z warn: Error: Connection closed
+    at SMTPConnection.<anonymous> (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-transport\index.js:355:33)
+    at Object.onceWrapper (node:events:628:28)
+    at SMTPConnection.emit (node:events:514:28)
+    at SMTPConnection._destroy (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:880:14)
+    at SMTPConnection._onClose (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:849:14)
+    at SMTPConnection._onSocketClose (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:195:42)
+    at Object.onceWrapper (node:events:629:26)
+    at Socket.emit (node:events:514:28)
+    at TCP.<anonymous> (node:net:337:12)
+2024-03-15T13:38:58.448Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:38:58.448Z info: Connexion à la base de donnée réussie
+2024-03-15T13:38:58.448Z warn: Error: Connection closed
+    at SMTPConnection.<anonymous> (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-transport\index.js:355:33)
+    at Object.onceWrapper (node:events:628:28)
+    at SMTPConnection.emit (node:events:514:28)
+    at SMTPConnection._destroy (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:880:14)
+    at SMTPConnection._onClose (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:849:14)
+    at SMTPConnection._onSocketClose (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:195:42)
+    at Object.onceWrapper (node:events:629:26)
+    at Socket.emit (node:events:514:28)
+    at TCP.<anonymous> (node:net:337:12)
+2024-03-15T13:43:01.524Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:43:01.524Z info: Connexion à la base de donnée réussie
+2024-03-15T13:43:01.524Z warn: Error: Connection closed
+    at SMTPConnection.<anonymous> (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-transport\index.js:355:33)
+    at Object.onceWrapper (node:events:628:28)
+    at SMTPConnection.emit (node:events:514:28)
+    at SMTPConnection._destroy (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:880:14)
+    at SMTPConnection._onClose (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:849:14)
+    at SMTPConnection._onSocketClose (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:195:42)
+    at Object.onceWrapper (node:events:629:26)
+    at Socket.emit (node:events:514:28)
+    at TCP.<anonymous> (node:net:337:12)
+2024-03-15T13:43:40.770Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:43:40.770Z info: Connexion à la base de donnée réussie
+2024-03-15T13:43:40.770Z warn: Error: Connection closed
+    at SMTPConnection.<anonymous> (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-transport\index.js:355:33)
+    at Object.onceWrapper (node:events:628:28)
+    at SMTPConnection.emit (node:events:514:28)
+    at SMTPConnection._destroy (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:880:14)
+    at SMTPConnection._onClose (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:849:14)
+    at SMTPConnection._onSocketClose (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:195:42)
+    at Object.onceWrapper (node:events:629:26)
+    at Socket.emit (node:events:514:28)
+    at TCP.<anonymous> (node:net:337:12)
+2024-03-15T13:43:40.770Z error: ::1 - POST /colis/create 500 - 11540.632 ms - message: -
+2024-03-15T13:54:04.094Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:54:04.094Z info: Connexion à la base de donnée réussie
+2024-03-15T13:54:04.094Z warn: Error: Invalid login: 535 Authentication credentials invalid
+    at SMTPConnection._formatError (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:1564:34)
+    at SMTPConnection.<anonymous> (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:969:20)
+    at SMTPConnection._onData (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at SMTPConnection._onSocketData (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+    at Readable.push (node:internal/streams/readable:375:5)
+2024-03-15T13:54:35.887Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:54:35.887Z info: Connexion à la base de donnée réussie
+2024-03-15T13:54:35.887Z warn: Error: Invalid login: 535 Authentication credentials invalid
+    at SMTPConnection._formatError (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:1564:34)
+    at SMTPConnection.<anonymous> (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:969:20)
+    at SMTPConnection._onData (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at SMTPConnection._onSocketData (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+    at Readable.push (node:internal/streams/readable:375:5)
+2024-03-15T13:59:56.597Z info: Le serveur tourne sur le port 4000
+2024-03-15T13:59:56.597Z info: Connexion à la base de donnée réussie
+2024-03-15T13:59:56.597Z warn: Error: Invalid login: 535 Authentication credentials invalid
+    at SMTPConnection._formatError (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:1564:34)
+    at SMTPConnection.<anonymous> (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:969:20)
+    at SMTPConnection._onData (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at SMTPConnection._onSocketData (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:514:28)
+    at addChunk (node:internal/streams/readable:545:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)
+    at Readable.push (node:internal/streams/readable:375:5)
+2024-03-15T14:02:34.849Z info: Le serveur tourne sur le port 4000
+2024-03-15T14:02:34.849Z info: Connexion à la base de donnée réussie
+2024-03-15T14:02:34.849Z info: Connected to email server
+2024-03-15T14:02:34.849Z error: ::1 - POST /colis/create 500 - 903.885 ms - message: -
+2024-03-15T14:03:49.638Z info: Le serveur tourne sur le port 4000
+2024-03-15T14:03:49.638Z info: Connexion à la base de donnée réussie
+2024-03-15T14:03:49.638Z warn: Error: Connection closed
+    at SMTPConnection.<anonymous> (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-transport\index.js:355:33)
+    at Object.onceWrapper (node:events:628:28)
+    at SMTPConnection.emit (node:events:514:28)
+    at SMTPConnection._destroy (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:880:14)
+    at SMTPConnection._onClose (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:849:14)
+    at SMTPConnection._onSocketClose (C:\Users\loics\Documents\vue js\api-coliturage\node_modules\nodemailer\lib\smtp-connection\index.js:195:42)
+    at Object.onceWrapper (node:events:629:26)
+    at Socket.emit (node:events:514:28)
+    at TCP.<anonymous> (node:net:337:12)
+2024-03-15T14:04:34.573Z info: Le serveur tourne sur le port 4000
+2024-03-15T14:04:34.573Z info: Connexion à la base de donnée réussie
+2024-03-15T14:04:34.573Z info: Connected to email server
+2024-03-15T14:04:34.573Z error: ::1 - POST /colis/create 500 - 1267.952 ms - message: -
+2024-03-15T14:07:42.071Z info: Le serveur tourne sur le port 4000
+2024-03-15T14:07:42.071Z info: Connexion à la base de donnée réussie
+2024-03-15T14:07:42.071Z info: Connected to email server
+2024-03-15T14:08:12.971Z info: Le serveur tourne sur le port 4000
+2024-03-15T14:08:12.971Z info: Connexion à la base de donnée réussie
+2024-03-15T14:08:12.971Z info: Connected to email server
+2024-03-15T14:08:12.971Z error: ::1 - POST /colis/create 500 - 1451.110 ms - message: -
+2024-03-15T14:08:12.971Z error: ::1 - POST /colis/create 500 - 1530.035 ms - message: -
+2024-03-15T14:11:23.897Z info: Le serveur tourne sur le port 4000
+2024-03-15T14:11:23.897Z info: Connexion à la base de donnée réussie
+2024-03-15T14:11:23.897Z info: Connected to email server
+2024-03-15T14:11:23.897Z error: ::1 - POST /colis/create 500 - 2106.815 ms - message: -
+2024-03-15T14:19:11.447Z info: Le serveur tourne sur le port 4000
+2024-03-15T14:19:11.447Z info: Connexion à la base de donnée réussie
+2024-03-15T14:19:11.447Z info: Connected to email server
+2024-03-15T14:20:42.015Z info: Le serveur tourne sur le port 4000
+2024-03-15T14:20:42.015Z info: Connexion à la base de donnée réussie
+2024-03-15T14:20:42.015Z info: Connected to email server
+2024-03-15T14:20:42.015Z info: ::1 - POST /colis/create 200 - 81.838 ms
+2024-03-15T14:22:24.825Z info: Le serveur tourne sur le port 4000
+2024-03-15T14:22:24.825Z info: Connexion à la base de donnée réussie
+2024-03-15T14:22:24.825Z info: Connected to email server
+2024-03-15T14:22:24.825Z info: ::1 - POST /colis/create 200 - 52.249 ms
+2024-03-15T14:23:35.643Z info: Le serveur tourne sur le port 4000
+2024-03-15T14:23:35.643Z info: Connexion à la base de donnée réussie
+2024-03-15T14:23:35.643Z info: Connected to email server
+2024-03-15T14:28:29.773Z info: Le serveur tourne sur le port 4000
+2024-03-15T14:28:29.773Z info: Connexion à la base de donnée réussie
+2024-03-15T14:28:29.773Z info: Connected to email server
+2024-03-15T14:31:51.455Z info: Le serveur tourne sur le port 4000
+2024-03-15T14:31:51.455Z info: Connexion à la base de donnée réussie
+2024-03-15T14:31:51.455Z info: Connected to email server
+2024-03-15T14:34:23.412Z info: Le serveur tourne sur le port 4000
+2024-03-15T14:34:23.412Z info: Connexion à la base de donnée réussie
+2024-03-15T14:34:23.412Z info: Connected to email server
+2024-03-15T14:34:41.081Z info: Le serveur tourne sur le port 4000
+2024-03-15T14:34:41.081Z info: Connexion à la base de donnée réussie
+2024-03-15T14:34:41.081Z info: Connected to email server
+2024-03-15T15:13:52.486Z info: Le serveur tourne sur le port 4000
+2024-03-15T15:13:52.486Z info: Connexion à la base de donnée réussie
+2024-03-15T15:13:52.486Z info: Connected to email server
+2024-03-15T15:18:38.657Z info: Le serveur tourne sur le port 4000
+2024-03-15T15:18:38.657Z info: Connexion à la base de donnée réussie
+2024-03-15T15:18:38.657Z info: Connected to email server
+2024-03-15T15:19:05.189Z info: Le serveur tourne sur le port 4000
+2024-03-15T15:19:05.189Z info: Connexion à la base de donnée réussie
+2024-03-15T15:19:05.189Z info: Connected to email server
+2024-03-15T15:19:26.789Z info: Le serveur tourne sur le port 4000
+2024-03-15T15:19:26.789Z info: Connexion à la base de donnée réussie
+2024-03-15T15:19:26.789Z info: Connected to email server
+2024-03-15T15:19:56.974Z info: Le serveur tourne sur le port 4000
+2024-03-15T15:19:56.974Z info: Connexion à la base de donnée réussie
+2024-03-15T15:19:56.974Z info: Connected to email server
+2024-03-15T15:20:25.827Z info: Le serveur tourne sur le port 4000
+2024-03-15T15:20:25.827Z info: Connexion à la base de donnée réussie
+2024-03-15T15:20:25.827Z info: Connected to email server
+2024-03-15T15:20:37.604Z info: Le serveur tourne sur le port 4000
+2024-03-15T15:20:37.604Z info: Connexion à la base de donnée réussie
+2024-03-15T15:20:37.604Z info: Connected to email server
+2024-03-15T15:24:20.614Z info: Le serveur tourne sur le port 4000
+2024-03-15T15:24:20.614Z info: Connexion à la base de donnée réussie
+2024-03-15T15:24:20.614Z info: Connected to email server
+2024-03-15T15:37:36.930Z info: Le serveur tourne sur le port 4000
+2024-03-15T15:37:36.930Z info: Connexion à la base de donnée réussie
+2024-03-15T15:37:36.930Z info: Connected to email server
+2024-03-15T15:37:50.889Z info: Le serveur tourne sur le port 4000
+2024-03-15T15:37:50.889Z info: Connexion à la base de donnée réussie
+2024-03-15T15:37:50.889Z info: Connected to email server
+2024-03-15T15:39:59.388Z info: Le serveur tourne sur le port 4000
+2024-03-15T15:39:59.388Z info: Connexion à la base de donnée réussie
+2024-03-15T15:39:59.388Z info: Connected to email server
+2024-03-15T15:40:38.209Z info: Le serveur tourne sur le port 4000
+2024-03-15T15:40:38.209Z info: Connexion à la base de donnée réussie
+2024-03-15T15:40:38.209Z info: Connected to email server
+2024-03-15T15:41:24.179Z info: Le serveur tourne sur le port 4000
+2024-03-15T15:41:24.179Z info: Connexion à la base de donnée réussie
+2024-03-15T15:41:24.179Z info: Connected to email server
+2024-03-15T15:42:46.137Z info: Le serveur tourne sur le port 4000
+2024-03-15T15:42:46.137Z info: Connexion à la base de donnée réussie
+2024-03-15T15:42:46.137Z info: Connected to email server
+2024-03-15T16:35:42.157Z info: Le serveur tourne sur le port 4000
+2024-03-15T16:35:42.157Z info: Connexion à la base de donnée réussie
+2024-03-15T16:35:42.157Z info: Connected to email server
+2024-03-15T16:36:23.220Z info: Le serveur tourne sur le port 4000
+2024-03-15T16:36:23.220Z info: Connexion à la base de donnée réussie
+2024-03-15T16:36:23.220Z info: Connected to email server
+2024-03-15T16:36:43.221Z info: Le serveur tourne sur le port 4000
+2024-03-15T16:36:43.221Z info: Connexion à la base de donnée réussie
+2024-03-15T16:36:43.221Z info: Connected to email server
+2024-03-15T16:52:55.465Z info: Le serveur tourne sur le port 4000
+2024-03-15T16:52:55.465Z info: Connexion à la base de donnée réussie
+2024-03-15T16:52:55.465Z info: Connected to email server
+2024-03-15T16:53:58.379Z info: Le serveur tourne sur le port 4000
+2024-03-15T16:53:58.379Z info: Connexion à la base de donnée réussie
+2024-03-15T16:53:58.379Z info: Connected to email server
+2024-03-15T16:56:31.743Z info: Le serveur tourne sur le port 4000
+2024-03-15T16:56:31.743Z info: Connexion à la base de donnée réussie
+2024-03-15T16:56:31.743Z info: Connected to email server
+2024-03-15T16:56:57.060Z info: Le serveur tourne sur le port 4000
+2024-03-15T16:56:57.060Z info: Connexion à la base de donnée réussie
+2024-03-15T16:56:57.060Z info: Connected to email server
+2024-03-15T18:19:26.951Z info: Le serveur tourne sur le port 4000
+2024-03-15T18:19:26.951Z info: Connexion à la base de donnée réussie
+2024-03-15T18:19:26.951Z info: Connected to email server
+2024-03-15T18:19:52.796Z info: Le serveur tourne sur le port 4000
+2024-03-15T18:19:52.796Z info: Connexion à la base de donnée réussie
+2024-03-15T18:19:52.796Z info: Connected to email server
