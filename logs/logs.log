@@ -224,3 +224,5 @@
 2024-03-05T22:21:14.056Z info: Le serveur tourne sur le port 4000
 2024-03-05T22:21:14.056Z info: Connexion à la base de donnée réussie
 2024-03-05T22:21:14.056Z error: GET /user/1 401 - 651.094 ms - message: -
+2024-03-07T07:36:17.966Z info: Le serveur tourne sur le port 4000
+2024-03-07T07:36:38.360Z info: Le serveur tourne sur le port 4000
