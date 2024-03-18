@@ -39,48 +39,83 @@ function shuffleArray(array) {
 }
 
 const searchDepartArriveeDate = async(query) =>{
-    try {
-      const {depart, arrivee, date} = query;
-      const dateOnlyQuery = `DATE_FORMAT(date, '%Y-%m-%d')`;
-      const [colis, trajet] = await Promise.all([
-        Colis.findAll({
-          attributes: ['id', 'poids', 'taille', 'depart', 'arrivee', 'statut', 'nom', 'date', 'description'],
-          include: {
-            model: User,
-            attributes: ['nom', 'prenom', 'telephone', 'email'] // Sélectionnez les colonnes que vous souhaitez récupérer de la table Utilisateurs
-          },
-          where: {
-            depart: depart,
-            arrivee: arrivee,
-            [Op.eq]: Sequelize.literal(dateOnlyQuery),
-            statut: 'en attente'
-          },
-          order: Sequelize.literal('RAND()'),
-        }),
-        Trajet.findAll({
-          attributes: ['id', 'poidsAutorise', 'tailleAutorisee', 'depart', 'arrivee', 'statut', 'date'],
-          include: {
-            model: User,
-            attributes: ['nom', 'prenom', 'telephone', 'email'] // Sélectionnez les colonnes que vous souhaitez récupérer de la table Utilisateurs
-          },
-          where: {
-            depart: depart,
-            arrivee: arrivee,
-            [Op.eq]: Sequelize.literal(dateOnlyQuery),
-            statut: 'en attente'
-          },
-          order: Sequelize.literal('RAND()'),
-        })
-      ]);
+  try {
+    const {depart, arrivee, date} = query;
+    const dateOnlyQuery = `DATE_FORMAT(date, '%Y-%m-%d')`;
+    const [colis, trajet] = await Promise.all([
+      Colis.findAll({
+        attributes: ['id', 'poids', 'taille', 'depart', 'arrivee', 'statut', 'nom', 'date', 'description'],
+        include: {
+          model: User,
+          attributes: ['nom', 'prenom', 'telephone', 'email']
+        },
+        where: {
+          depart: depart,
+          arrivee: arrivee,
+          [Op.eq]: Sequelize.literal(dateOnlyQuery),
+          statut: 'en attente'
+        },
+        order: Sequelize.literal('RAND()'),
+      }),
+      Trajet.findAll({
+        attributes: ['id', 'poidsAutorise', 'tailleAutorisee', 'depart', 'arrivee', 'statut', 'date'],
+        include: {
+          model: User,
+          attributes: ['nom', 'prenom', 'telephone', 'email']
+        },
+        where: {
+          depart: depart,
+          arrivee: arrivee,
+          [Op.eq]: Sequelize.literal(dateOnlyQuery),
+          statut: 'en attente'
+        },
+        order: Sequelize.literal('RAND()'),
+      })
+    ]);
 
-      const resultat = mixResults(colis, trajet);
-      return resultat;
-  } catch (error) {
-      console.error('Erreur lors de la recherche :', error);
-      throw error;
+    const resultat = mixResults(colis, trajet);
+    return resultat;
+  } 
+  catch (error) {
+    throw new ApiError(httpStatus.BAD_REQUEST, err);
+  }
+};
+
+const actualite = async() =>{
+  try {
+    const [colis, trajet] = await Promise.all([
+      Colis.findAll({
+        attributes: ['id', 'poids', 'taille', 'depart', 'arrivee', 'statut', 'nom', 'date', 'description'],
+        include: {
+          model: User,
+          attributes: ['nom', 'prenom', 'telephone', 'email']
+        },
+        where: {
+          statut: 'en attente'
+        },
+        order: Sequelize.literal('RAND()'),
+      }),
+      Trajet.findAll({
+        attributes: ['id', 'poidsAutorise', 'tailleAutorisee', 'depart', 'arrivee', 'statut', 'date'],
+        include: {
+          model: User,
+          attributes: ['nom', 'prenom', 'telephone', 'email']
+        },
+        where: {
+          statut: 'en attente'
+        },
+        order: Sequelize.literal('RAND()'),
+      })
+    ]);
+    const resultat = mixResults(colis, trajet);
+    return resultat;
+  } 
+  catch (error) {
+    throw new ApiError(httpStatus.BAD_REQUEST, err);
   }
 }
 
 module.exports = {
-    searchDepartArriveeDate
+  searchDepartArriveeDate,
+  actualite
 };

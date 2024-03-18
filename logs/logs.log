@@ -692,3 +692,259 @@
 2024-03-18T00:34:24.143Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 41.672 ms
 2024-03-18T00:34:24.143Z info: ::1 - GET /colis/statut/2?statut=en%20attente 304 - 66.438 ms
 2024-03-18T00:34:24.143Z info: ::1 - GET /colis/no/2 304 - 157.004 ms
+2024-03-18T08:00:48.118Z info: Le serveur tourne sur le port 4000
+2024-03-18T08:00:48.118Z info: Connected to email server
+2024-03-18T08:46:12.465Z info: Le serveur tourne sur le port 4000
+2024-03-18T08:46:12.465Z info: Connected to email server
+2024-03-18T08:52:08.928Z info: Le serveur tourne sur le port 4000
+2024-03-18T08:52:08.928Z info: Connected to email server
+2024-03-18T08:52:40.584Z info: Le serveur tourne sur le port 4000
+2024-03-18T08:52:40.584Z info: Connected to email server
+2024-03-18T08:55:44.403Z info: Le serveur tourne sur le port 4000
+2024-03-18T08:55:44.403Z info: Connexion à la base de donnée réussie
+2024-03-18T08:55:44.403Z info: Connected to email server
+2024-03-18T08:59:35.848Z info: Le serveur tourne sur le port 4000
+2024-03-18T08:59:35.848Z info: Connexion à la base de donnée réussie
+2024-03-18T08:59:35.848Z info: Connected to email server
+2024-03-18T09:04:57.594Z info: Le serveur tourne sur le port 4000
+2024-03-18T09:04:57.594Z info: Connected to email server
+2024-03-18T09:05:31.066Z info: Le serveur tourne sur le port 4000
+2024-03-18T09:05:31.066Z info: Connected to email server
+2024-03-18T09:16:53.162Z info: Le serveur tourne sur le port 4000
+2024-03-18T09:16:53.162Z info: Connected to email server
+2024-03-18T09:18:19.947Z info: Le serveur tourne sur le port 4000
+2024-03-18T09:18:19.947Z info: Connected to email server
+2024-03-18T10:12:53.959Z info: Le serveur tourne sur le port 4000
+2024-03-18T10:12:53.959Z info: Connexion à la base de donnée réussie
+2024-03-18T10:12:53.959Z info: Connected to email server
+2024-03-18T10:14:51.042Z info: Le serveur tourne sur le port 4000
+2024-03-18T10:14:51.042Z info: Connexion à la base de donnée réussie
+2024-03-18T10:14:51.042Z info: Connected to email server
+2024-03-18T10:56:59.218Z info: Le serveur tourne sur le port 4000
+2024-03-18T10:56:59.218Z info: Connexion à la base de donnée réussie
+2024-03-18T10:56:59.218Z info: Connected to email server
+2024-03-18T10:57:20.504Z info: Le serveur tourne sur le port 4000
+2024-03-18T10:57:20.504Z info: Connexion à la base de donnée réussie
+2024-03-18T10:57:20.504Z info: Connected to email server
+2024-03-18T10:58:09.031Z info: Le serveur tourne sur le port 4000
+2024-03-18T10:58:09.031Z info: Connexion à la base de donnée réussie
+2024-03-18T10:58:09.031Z info: Connected to email server
+2024-03-18T11:01:02.637Z info: Le serveur tourne sur le port 4000
+2024-03-18T11:01:02.637Z info: Connexion à la base de donnée réussie
+2024-03-18T11:01:02.637Z info: Connected to email server
+2024-03-18T11:03:15.961Z info: Le serveur tourne sur le port 4000
+2024-03-18T11:03:15.961Z info: Connexion à la base de donnée réussie
+2024-03-18T11:03:15.961Z info: Connected to email server
+2024-03-18T11:03:15.961Z error: ::1 - GET /user/null 404 - 58.783 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 25.605 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 31.357 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 59.545 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 93.827 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 91.614 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 91.538 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 36.727 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 39.045 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 113.340 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 313.483 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 32.747 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 29.831 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 36.592 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 51.316 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /user/null 404 - 44.617 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 28.699 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 37.631 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 56.709 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 48.623 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 200 - 87.934 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /user/null 404 - 60.458 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 14.845 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 25.732 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 62.541 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 21.889 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 28.308 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 14.099 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 13.026 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 19.149 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 21.215 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 24.031 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 26.306 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 29.134 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 31.607 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 26.894 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 32.458 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 32.208 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 24.383 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 25.622 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 23.892 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 12.418 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 35.838 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 16.852 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 31.638 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 27.016 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 34.425 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 6.125 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 7.862 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 6.094 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 45.084 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 40.229 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 53.919 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 6.537 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 9.111 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 6.974 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 24.100 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 9.403 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 27.927 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 5.294 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 4.645 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 11.902 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 20.149 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 12.274 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 12.914 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 11.500 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 5.644 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 10.284 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 21.841 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 8.721 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 6.827 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 6.978 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 6.560 ms
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 11.404 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 23.241 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 23.650 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 23.678 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 8.843 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 12.008 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 13.824 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 18.787 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 17.745 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 5.830 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 5.011 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 6.372 ms
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 7.171 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 28.182 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 27.492 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 23.359 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 22.053 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 19.450 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 42.900 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 27.331 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 21.851 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 30.202 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 4.361 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 3.961 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 5.068 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 20.820 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 20.586 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 19.254 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 24.994 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 15.761 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 5.194 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 24.514 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 25.804 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 25.337 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 30.198 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 29.706 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 30.256 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 40.049 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 42.014 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 42.435 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 22.476 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 23.368 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 21.110 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 36.018 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 34.774 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 44.599 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 22.932 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 24.562 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 21.369 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 21.661 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 23.169 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 22.931 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 22.488 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 22.385 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 23.115 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 11.276 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 9.983 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 19.997 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 20.708 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 22.374 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 20.263 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 11.768 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 11.622 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 13.216 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 21.609 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 26.025 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 28.075 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 26.529 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 23.331 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 48.959 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 58.658 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 60.959 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 89.341 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 59.471 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 49.151 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 81.908 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 90.428 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 71.746 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 128.609 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 46.324 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 49.846 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 42.507 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 60.748 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 65.195 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 79.199 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 108.547 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 121.131 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 158.113 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 32.102 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 35.969 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 33.915 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 24.123 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 48.566 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 54.743 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 102.021 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 100.149 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 94.044 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 67.781 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 188.567 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 201.024 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 21.866 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 25.421 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 46.846 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 28.088 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 13.098 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 20.096 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 88.281 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 94.995 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 127.771 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 4.554 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 7.105 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 35.679 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 35.990 ms - message: -
+2024-03-18T11:03:15.961Z info: ::1 - GET /colis/no/null 304 - 37.038 ms
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 42.322 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 12.021 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 14.301 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 23.168 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - POST /trajet/create 400 - 10.887 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - POST /trajet/create 400 - 21.227 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 9.138 ms - message: -
+2024-03-18T11:03:15.961Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 12.473 ms - message: -
+2024-03-18T17:11:19.763Z info: Le serveur tourne sur le port 4000
+2024-03-18T17:11:19.763Z info: Connexion à la base de donnée réussie
+2024-03-18T17:11:19.763Z info: Connected to email server
+2024-03-18T17:14:22.098Z info: Le serveur tourne sur le port 4000
+2024-03-18T17:14:22.098Z info: Connexion à la base de donnée réussie
+2024-03-18T17:14:22.098Z info: Connected to email server
+2024-03-18T17:14:40.155Z info: Le serveur tourne sur le port 4000
+2024-03-18T17:14:40.155Z info: Connexion à la base de donnée réussie
+2024-03-18T17:14:40.155Z info: Connected to email server
+2024-03-18T17:14:51.380Z info: Le serveur tourne sur le port 4000
+2024-03-18T17:14:51.380Z info: Connexion à la base de donnée réussie
+2024-03-18T17:14:51.380Z info: Connected to email server
+2024-03-18T17:15:44.056Z info: Le serveur tourne sur le port 4000
+2024-03-18T17:15:44.056Z info: Connexion à la base de donnée réussie
+2024-03-18T17:15:44.056Z info: Connected to email server
+2024-03-18T17:17:15.974Z info: Le serveur tourne sur le port 4000
+2024-03-18T17:17:15.974Z info: Connexion à la base de donnée réussie
+2024-03-18T17:17:15.974Z info: Connected to email server

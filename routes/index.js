@@ -6,6 +6,7 @@ const colisRoute = require('./colis.route');
 const trajetRoute = require('./trajet.route');
 const propostionRoute = require('./proposition.route');
 const searchRoute = require('./search.route');
+const vehiculeRoute = require('./vehicule.route');
 
 const router = express.Router();
 
@@ -33,6 +34,10 @@ const defaultRoutes = [
   {
     path: '/search',
     route: searchRoute
+  },
+  {
+    path: '/vehicule',
+    route: vehiculeRoute
   }
 ];
 

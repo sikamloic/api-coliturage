@@ -6,6 +6,12 @@ const searchDepartArriveeDate = catchAsync(async(req, res) =>{
   res.send(result);
 });
 
+const actualite = catchAsync(async(req, res) =>{
+  const result = await serachService.actualite();
+  res.send(result);
+});
+
 module.exports = {
-  searchDepartArriveeDate
+  searchDepartArriveeDate,
+  actualite
 }

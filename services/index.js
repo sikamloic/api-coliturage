@@ -6,3 +6,4 @@ module.exports.emailService = require('./email.service');
 module.exports.trajetService = require('./trajet.service');
 module.exports.propositionService = require('./proposition.service');
 module.exports.searchService = require('./search.service');
+module.exports.VehiculeService = require('./vehicule.service');

@@ -1,6 +1,7 @@
 const { DataTypes } = require('sequelize');
 const sequelize = require('../config/sequilize');
 const User = require('./user');
+const Vehicule = require('./vehicule')
 
 const Trajet = sequelize.define('Trajet', {
     id: {
@@ -25,7 +26,7 @@ const Trajet = sequelize.define('Trajet', {
         allowNull: true
     },
     tailleAutorisee: {
-        type: DataTypes.ARRAY(DataTypes.INTEGER),
+        type: DataTypes.STRING,
         allowNull: true
     },
     statut: {
@@ -36,5 +37,7 @@ const Trajet = sequelize.define('Trajet', {
 
 User.hasMany(Trajet, { foreignKey: 'userId' });
 Trajet.belongsTo(User, { foreignKey: 'userId' });
+Vehicule.hasMany(Trajet, { foreignKey: 'vehiculeId' });
+Trajet.belongsTo(Vehicule, { foreignKey: 'vehiculeId' });
 
 module.exports = Trajet;

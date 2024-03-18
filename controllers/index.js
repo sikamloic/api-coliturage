@@ -4,3 +4,4 @@ module.exports.colisController = require('./colis.controller');
 module.exports.trajetController = require('./trajet.controller');
 module.exports.propositionController = require('./proposition.controller');
 module.exports.searchController = require('./search.controller');
+module.exports.vehiculeController = require('./vehicule.controller');
