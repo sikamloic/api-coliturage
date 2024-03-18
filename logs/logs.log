@@ -224,5 +224,471 @@
 2024-03-05T22:21:14.056Z info: Le serveur tourne sur le port 4000
 2024-03-05T22:21:14.056Z info: Connexion à la base de donnée réussie
 2024-03-05T22:21:14.056Z error: GET /user/1 401 - 651.094 ms - message: -
-2024-03-07T07:36:17.966Z info: Le serveur tourne sur le port 4000
-2024-03-07T07:36:38.360Z info: Le serveur tourne sur le port 4000
+2024-03-15T23:56:09.083Z info: Le serveur tourne sur le port 4000
+2024-03-15T23:56:09.083Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-16T00:01:35.034Z info: Le serveur tourne sur le port 4000
+2024-03-16T00:01:35.034Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-16T00:01:35.034Z info: Connexion à la base de donnée réussie
+2024-03-16T00:01:35.034Z info: ::1 - POST /user/create 200 - 798.007 ms
+2024-03-16T00:01:35.034Z info: ::1 - POST /auth/login 200 - 579.302 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /user/1 200 - 62.688 ms
+2024-03-16T00:01:35.034Z info: ::1 - POST /user/create 200 - 360.454 ms
+2024-03-16T00:01:35.034Z info: ::1 - POST /auth/login 200 - 337.679 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /user/2 200 - 9.377 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20cours 200 - 80.650 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20attende 200 - 25.686 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 194.725 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20attende 304 - 211.987 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20attende 304 - 282.973 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 374.228 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20attende 200 - 297.366 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20cours 200 - 363.285 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 218.910 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20attende 304 - 362.166 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 21.967 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20attende 304 - 151.947 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 91.570 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20attende 304 - 98.276 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 29.071 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20attende 304 - 43.801 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 289.960 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20attende 304 - 362.969 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20attende 304 - 705.306 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 900.588 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 27.019 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20attende 304 - 40.031 ms
+2024-03-16T00:01:35.034Z error: ::1 - POST /colis/create 400 - 38.395 ms - message: -
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 95.170 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20attende 304 - 97.861 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 38.117 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20attende 304 - 15.497 ms
+2024-03-16T00:01:35.034Z info: ::1 - POST /colis/create 200 - 149.211 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 47.612 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20attende 304 - 108.306 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 95.947 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 100.593 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20attende 304 - 40.263 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20attende 304 - 41.154 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 14.355 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20attende 304 - 13.451 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 25.046 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20attende 304 - 22.704 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 147.904 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20attende 304 - 171.288 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 57.200 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20attende 304 - 18.933 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 69.530 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20attende 304 - 75.768 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 21.820 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20attende 304 - 14.154 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 67.213 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20attende 304 - 66.987 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 25.577 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20attende 304 - 21.457 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 120.320 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20attende 304 - 136.623 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 161.826 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20attente 200 - 164.248 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 14.220 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20attente 200 - 51.224 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 145.472 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20attente 304 - 154.903 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 73.807 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20attente 304 - 72.787 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 32.218 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20attente 304 - 22.751 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 59.430 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/2?statut=en%20attente 304 - 127.350 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 25.676 ms
+2024-03-16T00:01:35.034Z info: ::1 - GET /colis/statut/1?statut=en%20attente 304 - 18.544 ms
+2024-03-16T07:13:37.245Z info: Le serveur tourne sur le port 4000
+2024-03-16T07:13:37.245Z warn: Error: getaddrinfo EAI_AGAIN smtp.ionos.fr
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:119:26)
+2024-03-16T07:13:37.245Z info: Connexion à la base de donnée réussie
+2024-03-16T07:13:37.245Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 231.645 ms
+2024-03-16T07:13:37.245Z info: ::1 - GET /colis/statut/2?statut=en%20attente 200 - 257.772 ms
+2024-03-16T07:13:37.245Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 43.965 ms
+2024-03-16T07:13:37.245Z info: ::1 - GET /colis/statut/1?statut=en%20attente 304 - 55.700 ms
+2024-03-16T07:13:37.245Z error: ::1 - GET /trajet/statut/2?statut=en%20cours 400 - 43.082 ms - message: -
+2024-03-16T07:13:37.245Z error: ::1 - GET /trajet/statut/2?statut=en%20attente 400 - 8.241 ms - message: -
+2024-03-16T07:13:37.245Z error: ::1 - GET /trajet/statut/2?statut=en%20cours 400 - 23.539 ms - message: -
+2024-03-16T07:13:37.245Z error: ::1 - GET /trajet/statut/2?statut=en%20attente 400 - 6.768 ms - message: -
+2024-03-16T07:13:37.245Z info: ::1 - POST /colis/create 200 - 241.547 ms
+2024-03-16T07:13:37.245Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 72.083 ms
+2024-03-16T07:13:37.245Z info: ::1 - GET /colis/statut/2?statut=en%20attente 200 - 108.640 ms
+2024-03-16T07:13:37.245Z error: ::1 - GET /trajet/statut/2?statut=en%20cours 400 - 3.029 ms - message: -
+2024-03-16T07:13:37.245Z error: ::1 - GET /trajet/statut/2?statut=en%20attente 400 - 4.822 ms - message: -
+2024-03-16T07:13:37.245Z error: ::1 - GET /trajet/statut/2?statut=en%20cours 400 - 4.380 ms - message: -
+2024-03-16T07:13:37.245Z error: ::1 - GET /trajet/statut/2?statut=en%20attente 400 - 5.624 ms - message: -
+2024-03-16T07:13:37.245Z info: ::1 - POST /trajet/create 200 - 156.929 ms
+2024-03-16T07:13:37.245Z error: ::1 - GET /trajet/statut/2?statut=en%20cours 400 - 3.016 ms - message: -
+2024-03-16T07:13:37.245Z error: ::1 - GET /trajet/statut/2?statut=en%20attente 400 - 28.053 ms - message: -
+2024-03-16T10:17:26.032Z info: Le serveur tourne sur le port 4000
+2024-03-16T10:17:26.032Z info: Connexion à la base de donnée réussie
+2024-03-16T10:17:26.032Z warn: Error: Connection closed
+    at SMTPConnection.<anonymous> (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-transport\index.js:355:33)
+    at Object.onceWrapper (node:events:631:28)
+    at SMTPConnection.emit (node:events:517:28)
+    at SMTPConnection._destroy (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-connection\index.js:880:14)
+    at SMTPConnection._onClose (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-connection\index.js:849:14)
+    at SMTPConnection._onSocketClose (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-connection\index.js:195:42)
+    at Object.onceWrapper (node:events:632:26)
+    at Socket.emit (node:events:517:28)
+    at TCP.<anonymous> (node:net:350:12)
+2024-03-16T10:17:26.032Z error: ::1 - GET /trajet/statut/2?statut=en%20cours 400 - 46.768 ms - message: -
+2024-03-16T10:17:26.032Z error: ::1 - GET /trajet/statut/2?statut=en%20attente 400 - 12.726 ms - message: -
+2024-03-16T10:20:14.464Z info: Le serveur tourne sur le port 4000
+2024-03-16T10:20:14.464Z info: Connexion à la base de donnée réussie
+2024-03-16T10:20:20.514Z info: Le serveur tourne sur le port 4000
+2024-03-16T10:20:20.514Z info: Connexion à la base de donnée réussie
+2024-03-16T10:20:20.514Z warn: Error: Connection closed
+    at SMTPConnection.<anonymous> (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-transport\index.js:355:33)
+    at Object.onceWrapper (node:events:631:28)
+    at SMTPConnection.emit (node:events:517:28)
+    at SMTPConnection._destroy (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-connection\index.js:880:14)
+    at SMTPConnection._onClose (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-connection\index.js:849:14)
+    at SMTPConnection._onSocketClose (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-connection\index.js:195:42)
+    at Object.onceWrapper (node:events:632:26)
+    at Socket.emit (node:events:517:28)
+    at TCP.<anonymous> (node:net:350:12)
+2024-03-16T10:20:20.514Z info: ::1 - GET /trajet/statut/2?statut=en%20cours 200 - 372.979 ms
+2024-03-16T10:20:20.514Z info: ::1 - GET /trajet/statut/2?statut=en%20attente 200 - 379.897 ms
+2024-03-16T10:26:38.976Z info: Le serveur tourne sur le port 4000
+2024-03-16T10:26:38.976Z info: Connexion à la base de donnée réussie
+2024-03-16T10:26:38.976Z warn: Error: Connection closed
+    at SMTPConnection.<anonymous> (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-transport\index.js:355:33)
+    at Object.onceWrapper (node:events:631:28)
+    at SMTPConnection.emit (node:events:517:28)
+    at SMTPConnection._destroy (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-connection\index.js:880:14)
+    at SMTPConnection._onClose (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-connection\index.js:849:14)
+    at SMTPConnection._onSocketClose (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-connection\index.js:195:42)
+    at Object.onceWrapper (node:events:632:26)
+    at Socket.emit (node:events:517:28)
+    at TCP.<anonymous> (node:net:350:12)
+2024-03-16T10:27:15.681Z info: Le serveur tourne sur le port 4000
+2024-03-16T10:27:15.681Z info: Connexion à la base de donnée réussie
+2024-03-16T10:27:15.681Z warn: Error: Connection closed
+    at SMTPConnection.<anonymous> (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-transport\index.js:355:33)
+    at Object.onceWrapper (node:events:631:28)
+    at SMTPConnection.emit (node:events:517:28)
+    at SMTPConnection._destroy (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-connection\index.js:880:14)
+    at SMTPConnection._onClose (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-connection\index.js:849:14)
+    at SMTPConnection._onSocketClose (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-connection\index.js:195:42)
+    at Object.onceWrapper (node:events:632:26)
+    at Socket.emit (node:events:517:28)
+    at TCP.<anonymous> (node:net:350:12)
+2024-03-16T10:27:15.681Z error: ::1 - POST /trajet/create 500 - 155.191 ms - message: -
+2024-03-16T10:27:15.681Z info: ::1 - GET /trajet/statut/2?statut=en%20cours 304 - 58.088 ms
+2024-03-16T10:27:15.681Z info: ::1 - GET /trajet/statut/2?statut=en%20attente 200 - 231.438 ms
+2024-03-16T10:29:15.245Z info: Le serveur tourne sur le port 4000
+2024-03-16T10:29:15.245Z info: Connexion à la base de donnée réussie
+2024-03-16T10:29:15.245Z warn: Error: Connection closed
+    at SMTPConnection.<anonymous> (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-transport\index.js:355:33)
+    at Object.onceWrapper (node:events:631:28)
+    at SMTPConnection.emit (node:events:517:28)
+    at SMTPConnection._destroy (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-connection\index.js:880:14)
+    at SMTPConnection._onClose (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-connection\index.js:849:14)
+    at SMTPConnection._onSocketClose (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-connection\index.js:195:42)
+    at Object.onceWrapper (node:events:632:26)
+    at Socket.emit (node:events:517:28)
+    at TCP.<anonymous> (node:net:350:12)
+2024-03-16T10:29:15.245Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 165.273 ms
+2024-03-16T10:29:15.245Z info: ::1 - GET /colis/statut/1?statut=en%20attente 304 - 155.519 ms
+2024-03-16T10:29:15.245Z info: ::1 - POST /colis/create 200 - 144.490 ms
+2024-03-16T10:29:15.245Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 51.874 ms
+2024-03-16T10:29:15.245Z info: ::1 - GET /colis/statut/1?statut=en%20attente 200 - 163.245 ms
+2024-03-17T00:43:10.364Z info: Le serveur tourne sur le port 4000
+2024-03-17T00:43:10.364Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T00:45:53.059Z info: Le serveur tourne sur le port 4000
+2024-03-17T00:45:53.059Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T00:47:11.595Z info: Le serveur tourne sur le port 4000
+2024-03-17T00:47:11.595Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T00:47:59.264Z info: Le serveur tourne sur le port 4000
+2024-03-17T00:47:59.264Z info: Connexion à la base de donnée réussie
+2024-03-17T00:47:59.264Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T00:47:59.264Z info: ::1 - GET /colis/1 200 - 177.862 ms
+2024-03-17T00:47:59.264Z error: ::1 - GET /colis/no/1 404 - 11.325 ms - message: -
+2024-03-17T00:50:22.329Z info: Le serveur tourne sur le port 4000
+2024-03-17T00:50:22.329Z info: Connexion à la base de donnée réussie
+2024-03-17T00:50:22.329Z info: ::1 - GET /colis/no/1 200 - 81.480 ms
+2024-03-17T00:50:22.329Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T01:02:47.096Z info: Le serveur tourne sur le port 4000
+2024-03-17T01:02:47.096Z info: Connexion à la base de donnée réussie
+2024-03-17T01:02:47.096Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T01:02:59.149Z info: Le serveur tourne sur le port 4000
+2024-03-17T01:02:59.149Z info: Connexion à la base de donnée réussie
+2024-03-17T01:02:59.149Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T01:03:30.617Z info: Le serveur tourne sur le port 4000
+2024-03-17T01:03:30.617Z info: Connexion à la base de donnée réussie
+2024-03-17T01:03:30.617Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T01:03:48.781Z info: Le serveur tourne sur le port 4000
+2024-03-17T01:03:48.781Z info: Connexion à la base de donnée réussie
+2024-03-17T01:03:48.781Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T01:05:12.853Z info: Le serveur tourne sur le port 4000
+2024-03-17T01:05:12.853Z info: Connexion à la base de donnée réussie
+2024-03-17T01:05:12.853Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T01:05:12.853Z info: ::1 - GET /trajet/statut/2?statut=en%20cours 200 - 273.103 ms
+2024-03-17T01:05:12.853Z info: ::1 - GET /trajet/statut/2?statut=en%20attente 200 - 212.321 ms
+2024-03-17T01:05:12.853Z info: ::1 - GET /colis/statut/2?statut=en%20cours 200 - 27.885 ms
+2024-03-17T01:05:12.853Z info: ::1 - GET /colis/statut/2?statut=en%20attente 200 - 69.853 ms
+2024-03-17T01:05:12.853Z info: ::1 - GET /colis/no/2 200 - 22.530 ms
+2024-03-17T01:05:12.853Z info: ::1 - GET /colis/no/2 304 - 60.676 ms
+2024-03-17T01:05:12.853Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 130.174 ms
+2024-03-17T01:05:12.853Z info: ::1 - GET /colis/statut/2?statut=en%20attente 304 - 164.163 ms
+2024-03-17T01:07:52.776Z info: Le serveur tourne sur le port 4000
+2024-03-17T01:07:52.776Z info: Connexion à la base de donnée réussie
+2024-03-17T01:07:52.776Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T01:07:52.776Z info: ::1 - GET /colis/no/1 200 - 98.160 ms
+2024-03-17T01:07:52.776Z info: ::1 - GET /colis/no/2 200 - 63.883 ms
+2024-03-17T01:07:52.776Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 104.502 ms
+2024-03-17T01:07:52.776Z info: ::1 - GET /colis/statut/2?statut=en%20attente 304 - 109.116 ms
+2024-03-17T01:07:52.776Z info: ::1 - GET /colis/no/2 304 - 68.389 ms
+2024-03-17T01:07:52.776Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 200.978 ms
+2024-03-17T01:07:52.776Z info: ::1 - GET /colis/statut/2?statut=en%20attente 304 - 237.652 ms
+2024-03-17T01:12:39.145Z info: Le serveur tourne sur le port 4000
+2024-03-17T01:12:39.145Z info: Connexion à la base de donnée réussie
+2024-03-17T01:12:39.145Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T01:13:09.184Z info: Le serveur tourne sur le port 4000
+2024-03-17T01:13:09.184Z info: Connexion à la base de donnée réussie
+2024-03-17T01:13:09.184Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T01:15:12.793Z info: Le serveur tourne sur le port 4000
+2024-03-17T01:15:12.793Z info: Connexion à la base de donnée réussie
+2024-03-17T01:15:12.793Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T11:02:04.810Z info: Le serveur tourne sur le port 4000
+2024-03-17T11:02:04.810Z info: Connexion à la base de donnée réussie
+2024-03-17T11:02:04.810Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T11:03:44.336Z info: Le serveur tourne sur le port 4000
+2024-03-17T11:03:44.336Z info: Connexion à la base de donnée réussie
+2024-03-17T11:03:44.336Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T21:29:15.437Z info: Le serveur tourne sur le port 4000
+2024-03-17T21:29:15.437Z info: Connexion à la base de donnée réussie
+2024-03-17T21:29:15.437Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T21:31:43.549Z info: Le serveur tourne sur le port 4000
+2024-03-17T21:31:43.549Z info: Connexion à la base de donnée réussie
+2024-03-17T21:31:43.549Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T21:32:36.749Z info: Le serveur tourne sur le port 4000
+2024-03-17T21:32:36.749Z info: Connexion à la base de donnée réussie
+2024-03-17T21:32:36.749Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T21:33:07.516Z info: Le serveur tourne sur le port 4000
+2024-03-17T21:33:07.516Z info: Connexion à la base de donnée réussie
+2024-03-17T21:33:07.516Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T21:38:12.883Z info: Le serveur tourne sur le port 4000
+2024-03-17T21:38:12.883Z info: Connexion à la base de donnée réussie
+2024-03-17T21:38:12.883Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T21:38:58.287Z info: Le serveur tourne sur le port 4000
+2024-03-17T21:38:58.287Z info: Connexion à la base de donnée réussie
+2024-03-17T21:38:58.287Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T21:39:39.325Z info: Le serveur tourne sur le port 4000
+2024-03-17T21:39:39.325Z info: Connexion à la base de donnée réussie
+2024-03-17T21:39:39.325Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T21:41:13.948Z info: Le serveur tourne sur le port 4000
+2024-03-17T21:41:13.948Z info: Connexion à la base de donnée réussie
+2024-03-17T21:41:13.948Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T21:42:01.659Z info: Le serveur tourne sur le port 4000
+2024-03-17T21:42:01.659Z info: Connexion à la base de donnée réussie
+2024-03-17T21:42:01.659Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T21:42:50.878Z info: Le serveur tourne sur le port 4000
+2024-03-17T21:42:50.878Z info: Connexion à la base de donnée réussie
+2024-03-17T21:42:50.878Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T21:42:50.878Z info: ::1 - GET /search?depart=douala&arrivee=yaounde&date=2024-03-16 200 - 9.140 ms
+2024-03-17T21:47:16.073Z info: Le serveur tourne sur le port 4000
+2024-03-17T21:47:16.073Z info: Connexion à la base de donnée réussie
+2024-03-17T21:47:16.073Z info: ::1 - GET /search?depart=douala&arrivee=yaounde&date=2024-03-16 200 - 11.662 ms
+2024-03-17T21:47:16.073Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T21:49:01.339Z info: Le serveur tourne sur le port 4000
+2024-03-17T21:49:01.339Z info: Connexion à la base de donnée réussie
+2024-03-17T21:49:01.339Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T21:49:01.339Z info: ::1 - GET /search?depart=douala&arrivee=yaounde&date=2024-03-16 200 - 58.621 ms
+2024-03-17T21:49:55.316Z info: Le serveur tourne sur le port 4000
+2024-03-17T21:49:55.316Z info: Connexion à la base de donnée réussie
+2024-03-17T21:49:55.316Z info: ::1 - GET /search?depart=douala&arrivee=yaounde&date=2024-03-16 200 - 77.546 ms
+2024-03-17T21:49:55.316Z warn: Error: Timeout
+    at SMTPConnection._onTimeout (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-connection\index.js:869:30)
+    at SMTPConnection._onSocketTimeout (C:\Users\Loic Sikam\Desktop\coliturage-api\node_modules\nodemailer\lib\smtp-connection\index.js:197:44)
+    at TLSSocket.emit (node:events:517:28)
+    at Socket._onTimeout (node:net:598:8)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+2024-03-17T22:36:02.799Z info: Le serveur tourne sur le port 4000
+2024-03-17T22:36:02.799Z info: Connexion à la base de donnée réussie
+2024-03-17T22:36:02.799Z error: ::1 - GET /search?depart=douala&arrivee=yaounde&date=2024-03-16 500 - 25.265 ms - message: -
+2024-03-17T22:36:02.799Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T22:43:05.853Z info: Le serveur tourne sur le port 4000
+2024-03-17T22:43:05.853Z info: Connexion à la base de donnée réussie
+2024-03-17T22:43:05.853Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T22:43:05.853Z info: ::1 - GET /search?depart=douala&arrivee=yaounde&date=2024-03-16 200 - 132.600 ms
+2024-03-17T22:43:05.853Z info: ::1 - GET /colis/no/1 200 - 105.010 ms
+2024-03-17T22:43:05.853Z info: ::1 - GET /colis/statut/1?statut=en%20attente 200 - 211.973 ms
+2024-03-17T22:43:05.853Z info: ::1 - GET /colis/statut/1?statut=en%20cours 200 - 284.921 ms
+2024-03-17T23:37:34.462Z info: Le serveur tourne sur le port 4000
+2024-03-17T23:37:34.462Z info: Connexion à la base de donnée réussie
+2024-03-17T23:37:34.462Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-17T23:37:34.462Z info: ::1 - GET /search?depart=douala&arrivee=yaounde&date=2024-03-16 200 - 139.463 ms
+2024-03-17T23:37:34.462Z info: ::1 - GET /search?depart=&arrivee=&date= 200 - 264.513 ms
+2024-03-17T23:37:34.462Z info: ::1 - GET /search?depart=&arrivee=&date= 304 - 16.225 ms
+2024-03-17T23:37:34.462Z info: ::1 - GET /search?depart=&arrivee=&date= 304 - 243.789 ms
+2024-03-17T23:37:34.462Z info: ::1 - GET /search?depart=&arrivee=&date= 304 - 15.887 ms
+2024-03-17T23:37:34.462Z info: ::1 - GET /search?depart=douala&arrivee=yaounde&date=2024-03-16 200 - 243.202 ms
+2024-03-17T23:37:34.462Z info: ::1 - GET /search?depart=douala&arrivee=yaounde&date=2024-03-16 200 - 39.406 ms
+2024-03-18T00:27:56.125Z info: Le serveur tourne sur le port 4000
+2024-03-18T00:27:56.125Z info: Connexion à la base de donnée réussie
+2024-03-18T00:27:56.125Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-18T00:27:56.125Z info: ::1 - GET /search?depart=douala&arrivee=yaounde&date=2024-03-16 200 - 91.012 ms
+2024-03-18T00:27:56.125Z info: ::1 - GET /search?depart=douala&arrivee=yaounde&date=2024-03-16 200 - 51.468 ms
+2024-03-18T00:32:39.610Z info: Le serveur tourne sur le port 4000
+2024-03-18T00:32:39.610Z info: Connexion à la base de donnée réussie
+2024-03-18T00:32:39.610Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-18T00:32:39.610Z info: ::1 - GET /search?depart=douala&arrivee=yaounde&date=2024-03-16 200 - 179.201 ms
+2024-03-18T00:34:24.143Z info: Le serveur tourne sur le port 4000
+2024-03-18T00:34:24.143Z info: Connexion à la base de donnée réussie
+2024-03-18T00:34:24.143Z warn: Error: self-signed certificate in certificate chain
+    at TLSSocket.onConnectSecure (node:_tls_wrap:1600:34)
+    at TLSSocket.emit (node:events:517:28)
+    at TLSSocket._finishInit (node:_tls_wrap:1017:8)
+    at ssl.onhandshakedone (node:_tls_wrap:803:12)
+2024-03-18T00:34:24.143Z info: ::1 - GET /search?depart=douala&arrivee=yaounde&date=2024-03-16 200 - 135.400 ms
+2024-03-18T00:34:24.143Z info: ::1 - GET /trajet/statut/2?statut=en%20attente 304 - 241.022 ms
+2024-03-18T00:34:24.143Z info: ::1 - GET /trajet/statut/2?statut=en%20cours 304 - 365.921 ms
+2024-03-18T00:34:24.143Z info: ::1 - GET /colis/statut/2?statut=en%20cours 304 - 41.672 ms
+2024-03-18T00:34:24.143Z info: ::1 - GET /colis/statut/2?statut=en%20attente 304 - 66.438 ms
+2024-03-18T00:34:24.143Z info: ::1 - GET /colis/no/2 304 - 157.004 ms

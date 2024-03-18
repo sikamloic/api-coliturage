@@ -5,6 +5,7 @@ const auth = require('../middlewares/auth');
 
 router.post('/create', userController.createUser);
 router.route('/:id')
-    .get(auth(), userController.getUserById)
+    .get( userController.getUserById)
+    .patch(userController.updateUserById)
 router.get('/', userController.getAllUser)
 module.exports = router;

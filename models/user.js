@@ -2,6 +2,7 @@ const { DataTypes } = require('sequelize');
 const sequelize = require('../config/sequilize');
 const bcrypt = require('bcryptjs');
 const { roles } = require('../config/roles');
+const { Op } = require('sequelize');
 
 const User = sequelize.define('User', {
   id: {
@@ -15,7 +16,7 @@ const User = sequelize.define('User', {
   },
   prenom: {
     type: DataTypes.STRING,
-    allowNull: false,
+    allowNull: true,
   },
   email: {
     type: DataTypes.STRING,
@@ -28,19 +29,29 @@ const User = sequelize.define('User', {
   },
   telephone: {
     type: DataTypes.STRING,
-    allowNull: false
+    allowNull: false,
+    unique: true
   },
   role: {
     type: DataTypes.STRING,
     validate: {
       isIn: [roles]
     }
-  }
+  },
+  ville: {
+    type: DataTypes.STRING,
+    allowNull: true,
+  },
+  adresse: {
+    type: DataTypes.STRING,
+    allowNull: true,
+  },
 });
 
-User.isNumberTaken = async function (telephone, excludeUserId) {
-  const user = await this.findOne({ where: { telephone, id: { [sequelize.Op.ne]: excludeUserId } } });
-  return !!user;
+User.isNumberTaken = async function (telephone) {
+  const user = await this.findOne({ where: { telephone: telephone } });
+  // console.log(user)
+  return user;
 };
 
 User.prototype.isPasswordMatch = async function (password) {

@@ -9,6 +9,17 @@ const loginWithPhoneNumberAndPassword = catchAsync(async(req, res) =>{
     res.send({user, tokens});
 });
 
+const refreshAuth = catchAsync(async(req, res) =>{
+
+});
+
+const logout = catchAsync(async(req, res) =>{
+    await authService.logout(req.body.refreshToken);
+    res.status(httpStatus.NO_CONTENT).send();
+});
+
 module.exports = {
-    loginWithPhoneNumberAndPassword
+    loginWithPhoneNumberAndPassword,
+    refreshAuth,
+    logout
 };

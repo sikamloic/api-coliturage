@@ -1,37 +1,40 @@
-// trajets.js
 const { DataTypes } = require('sequelize');
 const sequelize = require('../config/sequilize');
 const User = require('./user');
 
-const Trajet = sequelize.define('Trajets', {
-    trajetId: {
-      type: DataTypes.INTEGER,
-      primaryKey: true,
-      autoIncrement: true
+const Trajet = sequelize.define('Trajet', {
+    id: {
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+        autoIncrement: true
     },
-    transporteurId: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: User,
-        key: 'id'
-      }
+    depart: {
+        type: DataTypes.STRING,
+        allowNull: false
     },
-    lieuDepart: {
-      type: DataTypes.STRING,
-      allowNull: false
+    arrivee: {
+        type: DataTypes.STRING,
+        allowNull: false
     },
-    lieuArrivee: {
-      type: DataTypes.STRING,
-      allowNull: false
+    date: {
+        type: DataTypes.DATE,
+        allowNull: false
     },
-    dateDepart: {
-      type: DataTypes.DATE,
-      allowNull: false
+    poidsAutorise: {
+        type: DataTypes.INTEGER,
+        allowNull: true
     },
-    poidsDisponibles: {
-      type: DataTypes.INTEGER,
-      allowNull: false
-    }
+    tailleAutorisee: {
+        type: DataTypes.ARRAY(DataTypes.INTEGER),
+        allowNull: true
+    },
+    statut: {
+        type: DataTypes.ENUM('en attente', 'en cours', 'termine'),
+        defaultValue: 'en attente'
+    },
 });
+
+User.hasMany(Trajet, { foreignKey: 'userId' });
+Trajet.belongsTo(User, { foreignKey: 'userId' });
 
 module.exports = Trajet;

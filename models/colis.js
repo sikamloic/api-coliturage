@@ -9,42 +9,49 @@ const Colis = sequelize.define('Colis', {
     primaryKey: true,
     autoIncrement: true
   },
-  userId: {
-    type: DataTypes.INTEGER,
-    references: {
-      model: User,
-      key: 'id'
-    }
+  nom: {
+    type: DataTypes.STRING,
+    allowNull: false
   },
   poids: {
     type: DataTypes.FLOAT,
     allowNull: false
   },
-  dimension: {
-    type: DataTypes.STRING
+  taille: {
+    type: DataTypes.STRING,
+    allowNull: false
   },
   description: {
-    type: DataTypes.TEXT
+    type: DataTypes.STRING,
+    allowNull: true
   },
-  lieuDepart: {
+  depart: {
     type: DataTypes.STRING,
     allowNull: false
   },
-  lieuArrivee: {
+  arrivee: {
     type: DataTypes.STRING,
     allowNull: false
   },
-  dateLimiteLivraison: {
-    type: DataTypes.DATE
+  dateLimite: {
+    type: DataTypes.DATE,
+    allowNull: true
   },
-  Photos: {
-    type: DataTypes.STRING // Utilisation d'un type JSONB pour stocker un tableau de photos
+  date: {
+    type: DataTypes.DATE,
+    allowNull: false
   },
-  Statut: {
-    type: DataTypes.BOOLEAN,
-    allowNull: false,
-    defaultValue: false // Définir une valeur par défaut pour le statut
+  statut: {
+    type: DataTypes.ENUM('en attente', 'en cours', 'termine'),
+    defaultValue: 'en attente'
+  },
+  photo: {
+    type: DataTypes.BLOB,
+    allowNull: true
   }
 });
+
+User.hasMany(Colis, { foreignKey: 'userId' });
+Colis.belongsTo(User, { foreignKey: 'userId' });
 
 module.exports = Colis;

@@ -1,13 +1,15 @@
 const colisService = require('../services/colis.service');
+const emailService = require('../services/email.service');
 const catchAsync = require('../utils/catchAsync');
 
 const createColis = catchAsync(async(req, res) =>{
-  const colis = await colisService.createColis(req.body);
+  const {colis, user} = await colisService.createColis(req.body);
+  emailService.sendCreateColis(user.email, colis);
   res.send(colis);
 });
 
 const deleteColis = catchAsync(async(req, res) =>{
-  const colis = await colisService.deleteColisById(req.params.id);
+  const colis = await colisService.deleteColis(req.params.id);
   res.send(colis);
 });
 
@@ -21,9 +23,27 @@ const getColisById = catchAsync(async(req, res) =>{
   res.send(colis);
 });
 
+const getColisByStatut = catchAsync(async(req, res) =>{
+  const colis = await colisService.getColisByStatut(req.query.statut);
+  res.send(colis);
+});
+
+const getColisByUserIdAndStatut = catchAsync(async(req, res) =>{
+  const colis = await colisService.getColisByUserIdAndStatut(req.params.userId, req.query.statut);
+  res.send(colis)
+});
+
+const getColisNotBelongingToUserId = catchAsync(async(req, res) =>{
+  const colis = await colisService.getColisNotBelongingToUserId(req.params.userId);
+  res.send(colis);
+});
+
 module.exports = {
   createColis,
   deleteColis,
   getAllColis,
-  getColisById
+  getColisById,
+  getColisByStatut,
+  getColisByUserIdAndStatut,
+  getColisNotBelongingToUserId
 }
