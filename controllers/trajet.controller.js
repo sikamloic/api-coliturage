@@ -4,7 +4,7 @@ const catchAsync = require('../utils/catchAsync');
 
 const createTrajet = catchAsync(async(req, res) =>{
     const {trajet, user} = await trajetService.createTrajet(req.body);
-    emailService.sendCreateColis(user.email, trajet);
+    // emailService.sendCreateColis(user.email, trajet);
     res.send(trajet);
 });
 

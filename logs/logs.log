@@ -948,3 +948,361 @@
 2024-03-18T17:17:15.974Z info: Le serveur tourne sur le port 4000
 2024-03-18T17:17:15.974Z info: Connexion à la base de donnée réussie
 2024-03-18T17:17:15.974Z info: Connected to email server
+2024-03-18T17:17:42.618Z info: Le serveur tourne sur le port 4000
+2024-03-18T17:17:42.618Z info: Connexion à la base de donnée réussie
+2024-03-18T17:17:42.618Z info: Connected to email server
+2024-03-18T17:17:42.618Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 48.194 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 47.467 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 88.869 ms - message: -
+2024-03-18T17:17:42.618Z info: ::1 - GET /colis/no/null 304 - 44.265 ms
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 124.244 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 35.283 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 35.186 ms - message: -
+2024-03-18T17:17:42.618Z info: ::1 - GET /colis/no/null 304 - 31.232 ms
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 34.798 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 31.969 ms - message: -
+2024-03-18T17:17:42.618Z info: ::1 - GET /colis/no/null 304 - 34.186 ms
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 219.058 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 170.085 ms - message: -
+2024-03-18T17:17:42.618Z info: ::1 - GET /colis/no/null 304 - 128.387 ms
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 46.342 ms - message: -
+2024-03-18T17:17:42.618Z info: ::1 - GET /colis/no/null 304 - 50.143 ms
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 71.779 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 41.868 ms - message: -
+2024-03-18T17:17:42.618Z info: ::1 - GET /colis/no/null 304 - 37.981 ms
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 40.912 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 18.394 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 30.071 ms - message: -
+2024-03-18T17:17:42.618Z info: ::1 - GET /colis/no/null 304 - 61.353 ms
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 59.555 ms - message: -
+2024-03-18T17:17:42.618Z info: ::1 - GET /colis/no/null 304 - 77.053 ms
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 118.431 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 15.394 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 10.510 ms - message: -
+2024-03-18T17:17:42.618Z info: ::1 - GET /colis/no/null 304 - 9.912 ms
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 21.309 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 21.542 ms - message: -
+2024-03-18T17:17:42.618Z info: ::1 - GET /colis/no/null 304 - 8.597 ms
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 26.656 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 26.551 ms - message: -
+2024-03-18T17:17:42.618Z info: ::1 - GET /colis/no/null 304 - 18.936 ms
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 32.956 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 22.754 ms - message: -
+2024-03-18T17:17:42.618Z info: ::1 - GET /colis/no/null 304 - 37.745 ms
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 17.594 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 9.384 ms - message: -
+2024-03-18T17:17:42.618Z info: ::1 - GET /colis/no/null 304 - 5.816 ms
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 176.076 ms - message: -
+2024-03-18T17:17:42.618Z info: ::1 - GET /colis/no/null 304 - 159.288 ms
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 180.253 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 44.159 ms - message: -
+2024-03-18T17:17:42.618Z info: ::1 - GET /colis/no/null 304 - 54.158 ms
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 98.120 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 31.940 ms - message: -
+2024-03-18T17:17:42.618Z info: ::1 - GET /colis/no/null 304 - 30.043 ms
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 32.544 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 12.782 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 12.191 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 14.463 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 25.978 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 7.375 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 12.919 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 4.845 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 7.086 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 22.318 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 27.357 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 4.562 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 7.217 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 4.531 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 6.394 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20cours 400 - 5.555 ms - message: -
+2024-03-18T17:17:42.618Z error: ::1 - GET /colis/statut/null?statut=en%20attente 400 - 9.204 ms - message: -
+2024-03-21T10:34:02.043Z info: Le serveur tourne sur le port 4000
+2024-03-21T10:34:02.043Z info: Connexion à la base de donnée réussie
+2024-03-21T10:34:02.043Z info: Connected to email server
+2024-03-21T12:17:50.170Z info: Le serveur tourne sur le port 4000
+2024-03-21T12:17:50.170Z info: Connexion à la base de donnée réussie
+2024-03-21T12:17:50.170Z info: Connected to email server
+2024-03-21T12:23:10.938Z info: Le serveur tourne sur le port 4000
+2024-03-21T12:23:10.938Z info: Connexion à la base de donnée réussie
+2024-03-21T12:23:10.938Z info: Connected to email server
+2024-03-21T12:23:10.938Z error: ::1 - GET /user/null 404 - 543.872 ms - message: -
+2024-03-21T12:23:10.938Z info: ::1 - POST /user/create 200 - 155.472 ms
+2024-03-21T12:23:10.938Z info: ::1 - POST /auth/login 200 - 133.759 ms
+2024-03-21T12:23:10.938Z info: ::1 - GET /user/1 200 - 6.754 ms
+2024-03-21T12:23:10.938Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 200 - 40.072 ms
+2024-03-21T12:23:10.938Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 200 - 40.322 ms
+2024-03-21T12:23:10.938Z info: ::1 - GET /colis/statut/1?statut=en%20cours 200 - 27.209 ms
+2024-03-21T12:23:10.938Z info: ::1 - GET /colis/statut/1?statut=en%20attente 200 - 26.369 ms
+2024-03-21T12:23:10.938Z error: ::1 - POST /colis/create 400 - 12.859 ms - message: -
+2024-03-21T12:23:10.938Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 29.975 ms
+2024-03-21T12:23:10.938Z info: ::1 - GET /colis/statut/1?statut=en%20attente 304 - 28.029 ms
+2024-03-21T12:23:10.938Z error: ::1 - POST /colis/create 400 - 15.083 ms - message: -
+2024-03-21T12:23:10.938Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 24.208 ms
+2024-03-21T12:23:10.938Z info: ::1 - GET /colis/statut/1?statut=en%20attente 304 - 23.453 ms
+2024-03-21T12:23:10.938Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 56.866 ms
+2024-03-21T12:23:10.938Z info: ::1 - GET /colis/statut/1?statut=en%20attente 304 - 91.386 ms
+2024-03-21T12:23:10.938Z info: ::1 - POST /colis/create 200 - 33.599 ms
+2024-03-21T12:23:10.938Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 18.474 ms
+2024-03-21T12:23:10.938Z info: ::1 - GET /colis/statut/1?statut=en%20attente 200 - 29.041 ms
+2024-03-21T12:38:58.418Z info: Le serveur tourne sur le port 4000
+2024-03-21T12:38:58.418Z info: Connexion à la base de donnée réussie
+2024-03-21T12:38:58.418Z info: Connected to email server
+2024-03-21T12:39:10.800Z info: Le serveur tourne sur le port 4000
+2024-03-21T12:39:10.800Z info: Connexion à la base de donnée réussie
+2024-03-21T12:39:10.800Z info: Connected to email server
+2024-03-21T12:39:10.800Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 47.054 ms
+2024-03-21T12:39:10.800Z info: ::1 - GET /colis/statut/1?statut=en%20attente 304 - 52.273 ms
+2024-03-21T12:39:10.800Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 20.186 ms
+2024-03-21T12:39:10.800Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 17.081 ms
+2024-03-21T12:39:10.800Z error: ::1 - POST /trajet/create 400 - 14.317 ms - message: -
+2024-03-21T12:39:10.800Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 39.636 ms
+2024-03-21T12:39:10.800Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 46.528 ms
+2024-03-21T12:39:10.800Z error: ::1 - POST /trajet/create 400 - 11.158 ms - message: -
+2024-03-21T12:39:10.800Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 24.601 ms
+2024-03-21T12:39:10.800Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 26.381 ms
+2024-03-21T12:58:53.226Z info: Le serveur tourne sur le port 4000
+2024-03-21T12:58:53.226Z info: Connexion à la base de donnée réussie
+2024-03-21T12:58:53.226Z info: Connected to email server
+2024-03-21T12:58:53.226Z error: ::1 - POST /trajet/create 400 - 33.131 ms - message: -
+2024-03-21T12:58:53.226Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 40.488 ms
+2024-03-21T12:58:53.226Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 42.183 ms
+2024-03-21T12:58:53.226Z error: ::1 - POST /trajet/create 400 - 14.895 ms - message: -
+2024-03-21T12:58:53.226Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 21.272 ms
+2024-03-21T12:58:53.226Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 21.796 ms
+2024-03-21T12:58:53.226Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 95.850 ms
+2024-03-21T12:58:53.226Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 72.439 ms
+2024-03-21T12:58:53.226Z error: ::1 - POST /trajet/create 400 - 21.681 ms - message: -
+2024-03-21T12:58:53.226Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 26.663 ms
+2024-03-21T12:58:53.226Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 26.731 ms
+2024-03-21T12:58:53.226Z error: ::1 - POST /trajet/create 400 - 36.736 ms - message: -
+2024-03-21T12:58:53.226Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 45.771 ms
+2024-03-21T12:58:53.226Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 41.687 ms
+2024-03-21T12:58:53.226Z error: ::1 - POST /trajet/create 400 - 19.022 ms - message: -
+2024-03-21T12:58:53.226Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 33.303 ms
+2024-03-21T12:58:53.226Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 33.250 ms
+2024-03-21T12:58:53.226Z error: ::1 - POST /trajet/create 400 - 21.933 ms - message: -
+2024-03-21T12:58:53.226Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 24.473 ms
+2024-03-21T12:58:53.226Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 25.529 ms
+2024-03-21T12:58:53.226Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 61.595 ms
+2024-03-21T12:58:53.226Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 70.053 ms
+2024-03-21T12:58:53.226Z info: ::1 - POST /trajet/create 200 - 145.126 ms
+2024-03-21T12:58:53.226Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 48.064 ms
+2024-03-21T12:58:53.226Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 200 - 55.595 ms
+2024-03-21T12:58:53.226Z info: ::1 - GET /search/actualite 200 - 27.427 ms
+2024-03-21T12:58:53.226Z info: ::1 - GET /search/actualite 200 - 29.873 ms
+2024-04-04T09:08:46.579Z info: Le serveur tourne sur le port 4000
+2024-04-04T09:08:46.579Z info: Connexion à la base de donnée réussie
+2024-04-04T09:08:46.579Z info: Connected to email server
+2024-04-04T09:08:46.579Z error: ::1 - GET /trajet/statut/null?statut=en%20attente 400 - 44.990 ms - message: -
+2024-04-04T09:08:46.579Z error: ::1 - GET /trajet/statut/null?statut=en%20cours 400 - 80.012 ms - message: -
+2024-04-04T09:08:46.579Z error: ::1 - GET /user/null 404 - 46.403 ms - message: -
+2024-04-04T09:08:46.579Z error: ::1 - GET /user/null 404 - 41.867 ms - message: -
+2024-04-04T09:08:46.579Z error: ::1 - GET /user/null 404 - 30.594 ms - message: -
+2024-04-04T09:08:46.579Z error: ::1 - GET /user/null 404 - 21.394 ms - message: -
+2024-04-04T09:08:46.579Z error: ::1 - GET /user/null 404 - 18.005 ms - message: -
+2024-04-04T09:08:46.579Z error: ::1 - GET /user/null 404 - 45.059 ms - message: -
+2024-04-04T09:08:46.579Z error: ::1 - GET /user/null 404 - 20.656 ms - message: -
+2024-04-04T09:08:46.579Z info: ::1 - POST /auth/login 200 - 194.577 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /user/1 200 - 9.843 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 200 - 50.066 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 200 - 59.974 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 53.201 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 61.955 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 44.750 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 44.092 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 20.167 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 21.208 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 22.772 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 20.354 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 27.515 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 30.509 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 18.711 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 19.361 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 22.326 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 27.042 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 200 - 15.713 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 109.193 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 17.375 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 13.297 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 20.287 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 51.193 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 4.797 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 53.131 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 15.698 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 19.684 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 26.326 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 17.693 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 24.912 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 12.942 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 15.369 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 15.036 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 12.335 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 13.836 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 13.598 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 16.057 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 19.485 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 12.641 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 14.414 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 4.464 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 12.683 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 5.477 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 15.058 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 10.718 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 215.115 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 18.502 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 8.735 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 15.371 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 13.954 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 4.067 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 26.806 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 13.502 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 15.210 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 4.845 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 18.454 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 13.024 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 20.812 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 4.328 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 4.368 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 7.330 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 12.449 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 13.717 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 14.126 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 21.042 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 14.692 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 198.249 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 29.649 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 22.459 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 82.546 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 66.250 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 12.260 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 27.077 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 33.708 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 34.376 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 7.452 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 47.000 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 55.920 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 3.313 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 44.605 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 29.426 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 4.032 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 15.596 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 19.232 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/1 304 - 3.689 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 32.562 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 31.919 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 43.206 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 65.018 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 122.759 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 107.017 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 38.091 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 35.835 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 99.148 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 104.308 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 131.401 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 131.976 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 27.084 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 23.730 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 28.844 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 17.971 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 35.271 ms
+2024-04-04T09:08:46.579Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 29.382 ms
+2024-04-05T12:22:59.150Z info: Le serveur tourne sur le port 4000
+2024-04-05T12:22:59.150Z info: Connexion à la base de donnée réussie
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 136.432 ms
+2024-04-05T12:22:59.150Z warn: Error: getaddrinfo ENOTFOUND smtp.ionos.fr
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+2024-04-05T12:22:59.150Z info: ::1 - GET /user/1 304 - 109.706 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /colis/statut/1?statut=en%20cours 200 - 49.372 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /colis/statut/1?statut=en%20attente 200 - 53.390 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 67.554 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /colis/statut/1?statut=en%20attente 304 - 128.512 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 28.049 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /colis/statut/1?statut=en%20attente 304 - 47.060 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 30.903 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /colis/statut/1?statut=en%20attente 304 - 62.957 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 126.768 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /colis/statut/1?statut=en%20attente 304 - 158.035 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 27.243 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /colis/statut/1?statut=en%20attente 304 - 29.758 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 30.537 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /colis/statut/1?statut=en%20attente 304 - 34.528 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 45.175 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /colis/statut/1?statut=en%20attente 304 - 55.460 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /colis/statut/1?statut=en%20cours 304 - 18.269 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /colis/statut/1?statut=en%20attente 304 - 18.369 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 34.315 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 53.955 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/1 304 - 7.922 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 16.977 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 19.025 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 16.576 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 15.486 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 81.898 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 93.850 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 39.012 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 72.507 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 84.579 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 91.081 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 66.172 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 81.131 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 457.498 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 500.667 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 171.521 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 266.504 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 33.117 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 40.592 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 564.916 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 561.146 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 31.168 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 40.105 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 42.898 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 63.530 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 27.739 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 26.816 ms
+2024-04-05T12:22:59.150Z info: ::1 - POST /trajet/create 200 - 147.664 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 29.351 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 200 - 33.799 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 34.433 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 304 - 13.391 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 304 - 23.200 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 29.298 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 27.805 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 20.399 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 29.086 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 32.250 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 33.383 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/1 304 - 19.618 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 26.187 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 24.148 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 15.021 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 37.203 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 25.876 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 10.021 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 304 - 100.683 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 71.842 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 304 - 85.465 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 118.605 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 34.134 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 59.543 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 27.630 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 348.291 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 27.334 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 304 - 15.580 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 37.453 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 29.089 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 25.120 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 304 - 28.237 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 32.990 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 28.100 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 25.290 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 45.231 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 101.680 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 304 - 20.329 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 18.427 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 30.514 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 82.154 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 24.173 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 12.717 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 46.946 ms
+2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 304 - 31.959 ms

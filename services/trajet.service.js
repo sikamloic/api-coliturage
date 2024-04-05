@@ -5,7 +5,7 @@ const userService = require('./user.service');
 const { Sequelize } = require('sequelize');
 
 const createTrajet = async(body) =>{
-    // console.log(body)
+    console.log(body)
     try{
         const user = await userService.getUserById(body.userId);
         const trajet = await Trajet.create(body);
