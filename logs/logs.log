@@ -1306,3 +1306,18 @@
 2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 12.717 ms
 2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 200 - 46.946 ms
 2024-04-05T12:22:59.150Z info: ::1 - GET /search/actualite 304 - 31.959 ms
+2024-04-11T10:23:44.132Z info: Le serveur tourne sur le port 4000
+2024-04-11T10:23:44.132Z info: Connexion à la base de donnée réussie
+2024-04-11T10:23:44.132Z info: ::1 - GET /user/1 304 - 114.663 ms
+2024-04-11T10:23:44.132Z info: ::1 - GET /user/1 304 - 13.716 ms
+2024-04-11T10:23:44.132Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 54.319 ms
+2024-04-11T10:23:44.132Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 56.876 ms
+2024-04-11T10:23:44.132Z info: Connected to email server
+2024-04-11T10:23:44.132Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 29.012 ms
+2024-04-11T10:23:44.132Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 32.459 ms
+2024-04-11T10:23:44.132Z info: ::1 - GET /search/actualite 200 - 28.120 ms
+2024-04-11T10:23:44.132Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 29.537 ms
+2024-04-11T10:23:44.132Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 31.732 ms
+2024-04-11T10:23:44.132Z info: ::1 - GET /trajet/1 304 - 9.591 ms
+2024-04-11T10:23:44.132Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 63.968 ms
+2024-04-11T10:23:44.132Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 78.727 ms
