@@ -1321,3 +1321,7 @@
 2024-04-11T10:23:44.132Z info: ::1 - GET /trajet/1 304 - 9.591 ms
 2024-04-11T10:23:44.132Z info: ::1 - GET /trajet/statut/1?statut=en%20cours 304 - 63.968 ms
 2024-04-11T10:23:44.132Z info: ::1 - GET /trajet/statut/1?statut=en%20attente 304 - 78.727 ms
+2024-04-11T11:16:22.897Z info: Le serveur tourne sur le port 4000
+2024-04-11T11:16:22.897Z info: Connected to email server
+2024-04-11T11:17:34.996Z info: Le serveur tourne sur le port 4000
+2024-04-11T11:17:34.996Z info: Connected to email server
